@@ -1,0 +1,4 @@
+chunk_size,questions_evaluated,mean_recall_at_5,mean_retrieved_tokens,mean_latency_ms
+256,50,0.925,595.2,70.73457760004203
+512,50,0.925,626.46,56.40508486001636
+1024,50,0.925,626.46,55.80357112002275

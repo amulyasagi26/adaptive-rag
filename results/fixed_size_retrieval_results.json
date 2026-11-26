@@ -1,0 +1,3302 @@
+[
+  {
+    "question_id":"5ac38f8e554299741d48a295",
+    "question":"The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":790,
+    "latency_ms":75.2913780002,
+    "retrieved_titles":[
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores":[
+      0.7411048412,
+      0.6950653791,
+      0.6473385096,
+      0.5560743809,
+      0.5473976731
+    ]
+  },
+  {
+    "question_id":"5ac38f8e554299741d48a295",
+    "question":"The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":827,
+    "latency_ms":59.1679610002,
+    "retrieved_titles":[
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores":[
+      0.7411047816,
+      0.6950653791,
+      0.6473386288,
+      0.5560743809,
+      0.5509130955
+    ]
+  },
+  {
+    "question_id":"5ac38f8e554299741d48a295",
+    "question":"The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":827,
+    "latency_ms":47.5955940001,
+    "retrieved_titles":[
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores":[
+      0.7411047816,
+      0.6950653791,
+      0.6473386288,
+      0.5560743809,
+      0.5509130955
+    ]
+  },
+  {
+    "question_id":"5abc8060554299114383a12e",
+    "question":"In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":572,
+    "latency_ms":46.4161949999,
+    "retrieved_titles":[
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Castle Carrock"
+    ],
+    "similarity_scores":[
+      0.6118847728,
+      0.508182168,
+      0.4601814747,
+      0.4426747262,
+      0.4034138024
+    ]
+  },
+  {
+    "question_id":"5abc8060554299114383a12e",
+    "question":"In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":572,
+    "latency_ms":50.0231569999,
+    "retrieved_titles":[
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Castle Carrock"
+    ],
+    "similarity_scores":[
+      0.6118847728,
+      0.508182168,
+      0.4601814747,
+      0.4426748157,
+      0.4034138024
+    ]
+  },
+  {
+    "question_id":"5abc8060554299114383a12e",
+    "question":"In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":572,
+    "latency_ms":50.0235270001,
+    "retrieved_titles":[
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Castle Carrock"
+    ],
+    "similarity_scores":[
+      0.6118847728,
+      0.508182168,
+      0.4601814747,
+      0.4426748157,
+      0.4034138024
+    ]
+  },
+  {
+    "question_id":"5ab1fba6554299340b525453",
+    "question":"Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":930,
+    "latency_ms":53.753617,
+    "retrieved_titles":[
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "The Twilight Saga: Eclipse",
+      "List of Twilight cast members"
+    ],
+    "similarity_scores":[
+      0.6502910852,
+      0.6060843468,
+      0.5446251631,
+      0.5260264874,
+      0.5229310989
+    ]
+  },
+  {
+    "question_id":"5ab1fba6554299340b525453",
+    "question":"Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1039,
+    "latency_ms":50.5031150001,
+    "retrieved_titles":[
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "List of Twilight cast members",
+      "The Twilight Saga: Eclipse"
+    ],
+    "similarity_scores":[
+      0.6502910852,
+      0.606084466,
+      0.5446253419,
+      0.5289940238,
+      0.5260264874
+    ]
+  },
+  {
+    "question_id":"5ab1fba6554299340b525453",
+    "question":"Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1039,
+    "latency_ms":55.7500360001,
+    "retrieved_titles":[
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "List of Twilight cast members",
+      "The Twilight Saga: Eclipse"
+    ],
+    "similarity_scores":[
+      0.6502910852,
+      0.606084466,
+      0.5446253419,
+      0.5289940238,
+      0.5260264874
+    ]
+  },
+  {
+    "question_id":"5a8aa4aa5542992d82986f41",
+    "question":"Radiohead and Oceansize are bands that play which type of music?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":708,
+    "latency_ms":53.4685350003,
+    "retrieved_titles":[
+      "Radiohead",
+      "Oceansize",
+      "Films of Colour",
+      "Post-Britpop",
+      "Nigel Godrich"
+    ],
+    "similarity_scores":[
+      0.5910563469,
+      0.5875682831,
+      0.4795458317,
+      0.47151196,
+      0.4499853849
+    ]
+  },
+  {
+    "question_id":"5a8aa4aa5542992d82986f41",
+    "question":"Radiohead and Oceansize are bands that play which type of music?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":738,
+    "latency_ms":51.8414899998,
+    "retrieved_titles":[
+      "Radiohead",
+      "Oceansize",
+      "Post-Britpop",
+      "Nigel Godrich",
+      "Lines Across Maps"
+    ],
+    "similarity_scores":[
+      0.5910563469,
+      0.5875682831,
+      0.471512109,
+      0.4499853849,
+      0.4458899796
+    ]
+  },
+  {
+    "question_id":"5a8aa4aa5542992d82986f41",
+    "question":"Radiohead and Oceansize are bands that play which type of music?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":738,
+    "latency_ms":54.5880610002,
+    "retrieved_titles":[
+      "Radiohead",
+      "Oceansize",
+      "Post-Britpop",
+      "Nigel Godrich",
+      "Lines Across Maps"
+    ],
+    "similarity_scores":[
+      0.5910563469,
+      0.5875682831,
+      0.471512109,
+      0.4499853849,
+      0.4458899796
+    ]
+  },
+  {
+    "question_id":"5ab290ec5542993be8fa9951",
+    "question":"Who has starred in more musicals, Jo Kwon or Bada?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":451,
+    "latency_ms":63.3285919998,
+    "retrieved_titles":[
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Key (entertainer)"
+    ],
+    "similarity_scores":[
+      0.5539717674,
+      0.5343706608,
+      0.4539268613,
+      0.4499232769,
+      0.4143753052
+    ]
+  },
+  {
+    "question_id":"5ab290ec5542993be8fa9951",
+    "question":"Who has starred in more musicals, Jo Kwon or Bada?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":451,
+    "latency_ms":58.4814919998,
+    "retrieved_titles":[
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Key (entertainer)"
+    ],
+    "similarity_scores":[
+      0.5539717674,
+      0.5343706608,
+      0.4539268613,
+      0.4499232769,
+      0.4143754244
+    ]
+  },
+  {
+    "question_id":"5ab290ec5542993be8fa9951",
+    "question":"Who has starred in more musicals, Jo Kwon or Bada?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":451,
+    "latency_ms":50.6291039997,
+    "retrieved_titles":[
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Key (entertainer)"
+    ],
+    "similarity_scores":[
+      0.5539717674,
+      0.5343706608,
+      0.4539268613,
+      0.4499232769,
+      0.4143754244
+    ]
+  },
+  {
+    "question_id":"5a8fb8f255429918e830d2be",
+    "question":"Are both Samuel R. Delany and Aldous Huxley from the same country?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":700,
+    "latency_ms":49.4436399999,
+    "retrieved_titles":[
+      "Aldous Huxley",
+      "Dana Sawyer",
+      "Samuel R. Delany",
+      "Between Heaven and Hell (novel)",
+      "The Motion of Light in Water"
+    ],
+    "similarity_scores":[
+      0.5303910971,
+      0.5203158259,
+      0.5006065965,
+      0.496152401,
+      0.481818974
+    ]
+  },
+  {
+    "question_id":"5a8fb8f255429918e830d2be",
+    "question":"Are both Samuel R. Delany and Aldous Huxley from the same country?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":827,
+    "latency_ms":48.7096679999,
+    "retrieved_titles":[
+      "Aldous Huxley",
+      "Dana Sawyer",
+      "Samuel R. Delany",
+      "Between Heaven and Hell (novel)",
+      "The Motion of Light in Water"
+    ],
+    "similarity_scores":[
+      0.5303913355,
+      0.5203158855,
+      0.5006066561,
+      0.496152401,
+      0.4838580489
+    ]
+  },
+  {
+    "question_id":"5a8fb8f255429918e830d2be",
+    "question":"Are both Samuel R. Delany and Aldous Huxley from the same country?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":827,
+    "latency_ms":50.4997079997,
+    "retrieved_titles":[
+      "Aldous Huxley",
+      "Dana Sawyer",
+      "Samuel R. Delany",
+      "Between Heaven and Hell (novel)",
+      "The Motion of Light in Water"
+    ],
+    "similarity_scores":[
+      0.5303913355,
+      0.5203158855,
+      0.5006066561,
+      0.496152401,
+      0.4838580489
+    ]
+  },
+  {
+    "question_id":"5a8f6fa4554299458435d61a",
+    "question":"Were Henry Winkler and Arthur Rosson both directors?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":317,
+    "latency_ms":808.4088280002,
+    "retrieved_titles":[
+      "Henry Winkler",
+      "Arthur Rosson",
+      "Wet Paint (film)",
+      "Fine Manners",
+      "King of the Sierras"
+    ],
+    "similarity_scores":[
+      0.5848720074,
+      0.582472682,
+      0.4794685841,
+      0.4469370246,
+      0.4272143245
+    ]
+  },
+  {
+    "question_id":"5a8f6fa4554299458435d61a",
+    "question":"Were Henry Winkler and Arthur Rosson both directors?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":317,
+    "latency_ms":54.8206369999,
+    "retrieved_titles":[
+      "Henry Winkler",
+      "Arthur Rosson",
+      "Wet Paint (film)",
+      "Fine Manners",
+      "King of the Sierras"
+    ],
+    "similarity_scores":[
+      0.5848718882,
+      0.5824728012,
+      0.4794685841,
+      0.4469370246,
+      0.4272143245
+    ]
+  },
+  {
+    "question_id":"5a8f6fa4554299458435d61a",
+    "question":"Were Henry Winkler and Arthur Rosson both directors?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":317,
+    "latency_ms":49.1747619999,
+    "retrieved_titles":[
+      "Henry Winkler",
+      "Arthur Rosson",
+      "Wet Paint (film)",
+      "Fine Manners",
+      "King of the Sierras"
+    ],
+    "similarity_scores":[
+      0.5848718882,
+      0.5824728012,
+      0.4794685841,
+      0.4469370246,
+      0.4272143245
+    ]
+  },
+  {
+    "question_id":"5ab7ea425542993667794046",
+    "question":"Brackenhill Tower is a peel tower, in the parish of Arthuret, Arthuret is a civil parish in the Carlisle district of Cumbria, in which country?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":680,
+    "latency_ms":51.0258710001,
+    "retrieved_titles":[
+      "Listed buildings in Arthuret",
+      "Brackenhill Tower",
+      "Arthuret",
+      "Stanwix Rural",
+      "Listed buildings in Stanwix Rural"
+    ],
+    "similarity_scores":[
+      0.7183763385,
+      0.7038750052,
+      0.6771630049,
+      0.6173784733,
+      0.5954459906
+    ]
+  },
+  {
+    "question_id":"5ab7ea425542993667794046",
+    "question":"Brackenhill Tower is a peel tower, in the parish of Arthuret, Arthuret is a civil parish in the Carlisle district of Cumbria, in which country?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":680,
+    "latency_ms":50.5320950001,
+    "retrieved_titles":[
+      "Listed buildings in Arthuret",
+      "Brackenhill Tower",
+      "Arthuret",
+      "Stanwix Rural",
+      "Listed buildings in Stanwix Rural"
+    ],
+    "similarity_scores":[
+      0.7183762789,
+      0.7038748264,
+      0.6771630049,
+      0.6173784733,
+      0.5954459906
+    ]
+  },
+  {
+    "question_id":"5ab7ea425542993667794046",
+    "question":"Brackenhill Tower is a peel tower, in the parish of Arthuret, Arthuret is a civil parish in the Carlisle district of Cumbria, in which country?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":680,
+    "latency_ms":59.0228350002,
+    "retrieved_titles":[
+      "Listed buildings in Arthuret",
+      "Brackenhill Tower",
+      "Arthuret",
+      "Stanwix Rural",
+      "Listed buildings in Stanwix Rural"
+    ],
+    "similarity_scores":[
+      0.7183762789,
+      0.7038748264,
+      0.6771630049,
+      0.6173784733,
+      0.5954459906
+    ]
+  },
+  {
+    "question_id":"5a7bba30554299042af8f7c6",
+    "question":"On what show did an actress featuring in Warmer in the Winter star as Maya Hart?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":651,
+    "latency_ms":52.0070699999,
+    "retrieved_titles":[
+      "Sabrina Carpenter",
+      "Shailene Woodley",
+      "Warmer in the Winter",
+      "Rachelle Lefevre",
+      "Maya (singer)"
+    ],
+    "similarity_scores":[
+      0.5425857306,
+      0.4319282174,
+      0.424918294,
+      0.4146849215,
+      0.4044964314
+    ]
+  },
+  {
+    "question_id":"5a7bba30554299042af8f7c6",
+    "question":"On what show did an actress featuring in Warmer in the Winter star as Maya Hart?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":651,
+    "latency_ms":60.982128,
+    "retrieved_titles":[
+      "Sabrina Carpenter",
+      "Shailene Woodley",
+      "Warmer in the Winter",
+      "Rachelle Lefevre",
+      "Maya (singer)"
+    ],
+    "similarity_scores":[
+      0.5425857902,
+      0.4319282174,
+      0.424918294,
+      0.4146849215,
+      0.4044964314
+    ]
+  },
+  {
+    "question_id":"5a7bba30554299042af8f7c6",
+    "question":"On what show did an actress featuring in Warmer in the Winter star as Maya Hart?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":651,
+    "latency_ms":59.9830599999,
+    "retrieved_titles":[
+      "Sabrina Carpenter",
+      "Shailene Woodley",
+      "Warmer in the Winter",
+      "Rachelle Lefevre",
+      "Maya (singer)"
+    ],
+    "similarity_scores":[
+      0.5425857902,
+      0.4319282174,
+      0.424918294,
+      0.4146849215,
+      0.4044964314
+    ]
+  },
+  {
+    "question_id":"5ac3cf64554299204fd21e77",
+    "question":"Jenny Eck was the Montana state director for the presidential campaign of a woman born in what year?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":545,
+    "latency_ms":50.5550460002,
+    "retrieved_titles":[
+      "Jenny Eck",
+      "Dorothy Eck",
+      "Hillary Clinton",
+      "Shailene Woodley",
+      "Sharon Osbourne"
+    ],
+    "similarity_scores":[
+      0.6820320487,
+      0.6122362614,
+      0.5392251015,
+      0.4318746328,
+      0.4264759421
+    ]
+  },
+  {
+    "question_id":"5ac3cf64554299204fd21e77",
+    "question":"Jenny Eck was the Montana state director for the presidential campaign of a woman born in what year?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":545,
+    "latency_ms":47.443895,
+    "retrieved_titles":[
+      "Jenny Eck",
+      "Dorothy Eck",
+      "Hillary Clinton",
+      "Shailene Woodley",
+      "Sharon Osbourne"
+    ],
+    "similarity_scores":[
+      0.6820320487,
+      0.6122361422,
+      0.5392251015,
+      0.4318746328,
+      0.4264759421
+    ]
+  },
+  {
+    "question_id":"5ac3cf64554299204fd21e77",
+    "question":"Jenny Eck was the Montana state director for the presidential campaign of a woman born in what year?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":545,
+    "latency_ms":75.7147690001,
+    "retrieved_titles":[
+      "Jenny Eck",
+      "Dorothy Eck",
+      "Hillary Clinton",
+      "Shailene Woodley",
+      "Sharon Osbourne"
+    ],
+    "similarity_scores":[
+      0.6820320487,
+      0.6122361422,
+      0.5392251015,
+      0.4318746328,
+      0.4264759421
+    ]
+  },
+  {
+    "question_id":"5adc1353554299438c868d41",
+    "question":"Christmas Love Duets includes the John Lennon song that was released in what year as a single?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":611,
+    "latency_ms":56.2352520001,
+    "retrieved_titles":[
+      "Happy Xmas (War Is Over)",
+      "Christmas Love Duets",
+      "Oh My Love (disambiguation)",
+      "I'm Losing You (John Lennon song)",
+      "Every Man Has a Woman Who Loves Him"
+    ],
+    "similarity_scores":[
+      0.617425859,
+      0.6122745275,
+      0.547596693,
+      0.4787967205,
+      0.4612536728
+    ]
+  },
+  {
+    "question_id":"5adc1353554299438c868d41",
+    "question":"Christmas Love Duets includes the John Lennon song that was released in what year as a single?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":611,
+    "latency_ms":57.1779450001,
+    "retrieved_titles":[
+      "Happy Xmas (War Is Over)",
+      "Christmas Love Duets",
+      "Oh My Love (disambiguation)",
+      "I'm Losing You (John Lennon song)",
+      "Every Man Has a Woman Who Loves Him"
+    ],
+    "similarity_scores":[
+      0.617425859,
+      0.6122745275,
+      0.5475965738,
+      0.4787967205,
+      0.4612536728
+    ]
+  },
+  {
+    "question_id":"5adc1353554299438c868d41",
+    "question":"Christmas Love Duets includes the John Lennon song that was released in what year as a single?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":611,
+    "latency_ms":52.5342000001,
+    "retrieved_titles":[
+      "Happy Xmas (War Is Over)",
+      "Christmas Love Duets",
+      "Oh My Love (disambiguation)",
+      "I'm Losing You (John Lennon song)",
+      "Every Man Has a Woman Who Loves Him"
+    ],
+    "similarity_scores":[
+      0.617425859,
+      0.6122745275,
+      0.5475965738,
+      0.4787967205,
+      0.4612536728
+    ]
+  },
+  {
+    "question_id":"5a907e245542995651fb516d",
+    "question":"Both Fletcher v. Peck and Brown v. Board of Education reached what level of hearing in the court system?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":738,
+    "latency_ms":55.988865,
+    "retrieved_titles":[
+      "Brown v. Board of Education",
+      "Fletcher v. Peck",
+      "Alexander v. Holmes County Board of Education",
+      "Simple Justice",
+      "Perrow Commission"
+    ],
+    "similarity_scores":[
+      0.5903184414,
+      0.5356544256,
+      0.5326236486,
+      0.5293251276,
+      0.4673835337
+    ]
+  },
+  {
+    "question_id":"5a907e245542995651fb516d",
+    "question":"Both Fletcher v. Peck and Brown v. Board of Education reached what level of hearing in the court system?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":803,
+    "latency_ms":59.62073,
+    "retrieved_titles":[
+      "Brown v. Board of Education",
+      "Fletcher v. Peck",
+      "Alexander v. Holmes County Board of Education",
+      "Simple Justice",
+      "Perrow Commission"
+    ],
+    "similarity_scores":[
+      0.5851888061,
+      0.5356544256,
+      0.5326236486,
+      0.5293251276,
+      0.4673835635
+    ]
+  },
+  {
+    "question_id":"5a907e245542995651fb516d",
+    "question":"Both Fletcher v. Peck and Brown v. Board of Education reached what level of hearing in the court system?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":803,
+    "latency_ms":51.2243329999,
+    "retrieved_titles":[
+      "Brown v. Board of Education",
+      "Fletcher v. Peck",
+      "Alexander v. Holmes County Board of Education",
+      "Simple Justice",
+      "Perrow Commission"
+    ],
+    "similarity_scores":[
+      0.5851888061,
+      0.5356544256,
+      0.5326236486,
+      0.5293251276,
+      0.4673835635
+    ]
+  },
+  {
+    "question_id":"5a7ba9b5554299294a54aa76",
+    "question":"What poem did the poet from Joplin,MO Langston Hughes write?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":457,
+    "latency_ms":51.6429090003,
+    "retrieved_titles":[
+      "Langston Hughes",
+      "I, Too (Langston Hughes poem)",
+      "Come to the Waldorf Astoria",
+      "Let America be America Again",
+      "Langston Hughes House"
+    ],
+    "similarity_scores":[
+      0.6878728867,
+      0.5952670574,
+      0.5670359135,
+      0.5636863112,
+      0.5619062185
+    ]
+  },
+  {
+    "question_id":"5a7ba9b5554299294a54aa76",
+    "question":"What poem did the poet from Joplin,MO Langston Hughes write?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":457,
+    "latency_ms":56.755825,
+    "retrieved_titles":[
+      "Langston Hughes",
+      "I, Too (Langston Hughes poem)",
+      "Come to the Waldorf Astoria",
+      "Let America be America Again",
+      "Langston Hughes House"
+    ],
+    "similarity_scores":[
+      0.6878726482,
+      0.5952670574,
+      0.5670359731,
+      0.5636863112,
+      0.5619062185
+    ]
+  },
+  {
+    "question_id":"5a7ba9b5554299294a54aa76",
+    "question":"What poem did the poet from Joplin,MO Langston Hughes write?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":457,
+    "latency_ms":53.9157129997,
+    "retrieved_titles":[
+      "Langston Hughes",
+      "I, Too (Langston Hughes poem)",
+      "Come to the Waldorf Astoria",
+      "Let America be America Again",
+      "Langston Hughes House"
+    ],
+    "similarity_scores":[
+      0.6878726482,
+      0.5952670574,
+      0.5670359731,
+      0.5636863112,
+      0.5619062185
+    ]
+  },
+  {
+    "question_id":"5a79fecb554299029c4b5f9a",
+    "question":"What is the profession of Josey Scott and Dez Fafara ?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":330,
+    "latency_ms":52.7475889999,
+    "retrieved_titles":[
+      "Trust No One (DevilDriver album)",
+      "Josey Scott",
+      "Dez Fafara",
+      "DevilDriver (album)",
+      "DevilDriver"
+    ],
+    "similarity_scores":[
+      0.4866509736,
+      0.4799950719,
+      0.4689455926,
+      0.4553679824,
+      0.4059041739
+    ]
+  },
+  {
+    "question_id":"5a79fecb554299029c4b5f9a",
+    "question":"What is the profession of Josey Scott and Dez Fafara ?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":330,
+    "latency_ms":56.6598199998,
+    "retrieved_titles":[
+      "Trust No One (DevilDriver album)",
+      "Josey Scott",
+      "Dez Fafara",
+      "DevilDriver (album)",
+      "DevilDriver"
+    ],
+    "similarity_scores":[
+      0.4866509438,
+      0.4799949527,
+      0.4689455926,
+      0.4553681612,
+      0.4059041739
+    ]
+  },
+  {
+    "question_id":"5a79fecb554299029c4b5f9a",
+    "question":"What is the profession of Josey Scott and Dez Fafara ?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":330,
+    "latency_ms":61.4821189997,
+    "retrieved_titles":[
+      "Trust No One (DevilDriver album)",
+      "Josey Scott",
+      "Dez Fafara",
+      "DevilDriver (album)",
+      "DevilDriver"
+    ],
+    "similarity_scores":[
+      0.4866509438,
+      0.4799949527,
+      0.4689455926,
+      0.4553681612,
+      0.4059041739
+    ]
+  },
+  {
+    "question_id":"5ac1338d5542994ab5c67cb9",
+    "question":"Harold Bloom and Stewart O'Nan, are of which nationality?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":416,
+    "latency_ms":51.8970960002,
+    "retrieved_titles":[
+      "Stewart O'Nan",
+      "Harold Bloom",
+      "The American Religion",
+      "Graham Allen (writer, academic)",
+      "School of Resentment"
+    ],
+    "similarity_scores":[
+      0.5953915715,
+      0.5182574987,
+      0.4239105284,
+      0.4217830896,
+      0.4130912721
+    ]
+  },
+  {
+    "question_id":"5ac1338d5542994ab5c67cb9",
+    "question":"Harold Bloom and Stewart O'Nan, are of which nationality?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":416,
+    "latency_ms":55.53521,
+    "retrieved_titles":[
+      "Stewart O'Nan",
+      "Harold Bloom",
+      "The American Religion",
+      "Graham Allen (writer, academic)",
+      "School of Resentment"
+    ],
+    "similarity_scores":[
+      0.5953913927,
+      0.5182574987,
+      0.4239105284,
+      0.421783179,
+      0.4130912721
+    ]
+  },
+  {
+    "question_id":"5ac1338d5542994ab5c67cb9",
+    "question":"Harold Bloom and Stewart O'Nan, are of which nationality?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":416,
+    "latency_ms":58.4454050004,
+    "retrieved_titles":[
+      "Stewart O'Nan",
+      "Harold Bloom",
+      "The American Religion",
+      "Graham Allen (writer, academic)",
+      "School of Resentment"
+    ],
+    "similarity_scores":[
+      0.5953913927,
+      0.5182574987,
+      0.4239105284,
+      0.421783179,
+      0.4130912721
+    ]
+  },
+  {
+    "question_id":"5a8000fd55429969796c1b95",
+    "question":"Shinee, is a South Korean boy group, formed by S.M. Entertainment in which year, the group is composed of five members, including Lee Jin-ki , better known by his stage name Onew, is a South Korean singer and actor?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":807,
+    "latency_ms":54.997057,
+    "retrieved_titles":[
+      "Onew",
+      "Shinee",
+      "List of awards and nominations received by Shinee",
+      "1 of 1 (album)",
+      "Kim Jong-hyun (singer)"
+    ],
+    "similarity_scores":[
+      0.8411439061,
+      0.8050488234,
+      0.6469362974,
+      0.6385731697,
+      0.607301414
+    ]
+  },
+  {
+    "question_id":"5a8000fd55429969796c1b95",
+    "question":"Shinee, is a South Korean boy group, formed by S.M. Entertainment in which year, the group is composed of five members, including Lee Jin-ki , better known by his stage name Onew, is a South Korean singer and actor?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":834,
+    "latency_ms":64.732201,
+    "retrieved_titles":[
+      "Onew",
+      "Shinee",
+      "List of awards and nominations received by Shinee",
+      "1 of 1 (album)",
+      "Kim Jong-hyun (singer)"
+    ],
+    "similarity_scores":[
+      0.8411438465,
+      0.8050487041,
+      0.6461215019,
+      0.6385731697,
+      0.607301414
+    ]
+  },
+  {
+    "question_id":"5a8000fd55429969796c1b95",
+    "question":"Shinee, is a South Korean boy group, formed by S.M. Entertainment in which year, the group is composed of five members, including Lee Jin-ki , better known by his stage name Onew, is a South Korean singer and actor?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":834,
+    "latency_ms":56.2354640001,
+    "retrieved_titles":[
+      "Onew",
+      "Shinee",
+      "List of awards and nominations received by Shinee",
+      "1 of 1 (album)",
+      "Kim Jong-hyun (singer)"
+    ],
+    "similarity_scores":[
+      0.8411438465,
+      0.8050487041,
+      0.6461215019,
+      0.6385731697,
+      0.607301414
+    ]
+  },
+  {
+    "question_id":"5ae30a6055429928c42395bc",
+    "question":"What Australian academic, author and feminist, was a panelist on the Australian comedy talk show Salam Cafe?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":399,
+    "latency_ms":52.6634090002,
+    "retrieved_titles":[
+      "Salam Cafe",
+      "Susan Carland",
+      "Simone de Beauvoir",
+      "Tom Lewis (author)",
+      "Simone de Beauvoir Prize"
+    ],
+    "similarity_scores":[
+      0.6072862744,
+      0.5982669592,
+      0.4845804572,
+      0.4341906309,
+      0.4329686165
+    ]
+  },
+  {
+    "question_id":"5ae30a6055429928c42395bc",
+    "question":"What Australian academic, author and feminist, was a panelist on the Australian comedy talk show Salam Cafe?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":399,
+    "latency_ms":58.196559,
+    "retrieved_titles":[
+      "Salam Cafe",
+      "Susan Carland",
+      "Simone de Beauvoir",
+      "Tom Lewis (author)",
+      "Simone de Beauvoir Prize"
+    ],
+    "similarity_scores":[
+      0.6072862744,
+      0.5982669592,
+      0.4845804572,
+      0.4341905713,
+      0.4329686165
+    ]
+  },
+  {
+    "question_id":"5ae30a6055429928c42395bc",
+    "question":"What Australian academic, author and feminist, was a panelist on the Australian comedy talk show Salam Cafe?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":399,
+    "latency_ms":51.489639,
+    "retrieved_titles":[
+      "Salam Cafe",
+      "Susan Carland",
+      "Simone de Beauvoir",
+      "Tom Lewis (author)",
+      "Simone de Beauvoir Prize"
+    ],
+    "similarity_scores":[
+      0.6072862744,
+      0.5982669592,
+      0.4845804572,
+      0.4341905713,
+      0.4329686165
+    ]
+  },
+  {
+    "question_id":"5a81981855429926c1cdad46",
+    "question":"Are both Olenka and the Autumn Lovers and Empire of the Sun in the music industry?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":561,
+    "latency_ms":54.6757769998,
+    "retrieved_titles":[
+      "Empire of the Sun (band)",
+      "Olenka and the Autumn Lovers",
+      "Onew",
+      "Valvin Roane",
+      "Bundesverband Musikindustrie"
+    ],
+    "similarity_scores":[
+      0.5642841458,
+      0.4830897748,
+      0.4385696352,
+      0.4130666256,
+      0.4103437066
+    ]
+  },
+  {
+    "question_id":"5a81981855429926c1cdad46",
+    "question":"Are both Olenka and the Autumn Lovers and Empire of the Sun in the music industry?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":683,
+    "latency_ms":57.3254800001,
+    "retrieved_titles":[
+      "Empire of the Sun (band)",
+      "Olenka and the Autumn Lovers",
+      "Onew",
+      "Bundesverband Musikindustrie",
+      "Valvin Roane"
+    ],
+    "similarity_scores":[
+      0.5642852187,
+      0.4830899239,
+      0.4385695457,
+      0.4103437066,
+      0.4019049406
+    ]
+  },
+  {
+    "question_id":"5a81981855429926c1cdad46",
+    "question":"Are both Olenka and the Autumn Lovers and Empire of the Sun in the music industry?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":683,
+    "latency_ms":62.3180160001,
+    "retrieved_titles":[
+      "Empire of the Sun (band)",
+      "Olenka and the Autumn Lovers",
+      "Onew",
+      "Bundesverband Musikindustrie",
+      "Valvin Roane"
+    ],
+    "similarity_scores":[
+      0.5642852187,
+      0.4830899239,
+      0.4385695457,
+      0.4103437066,
+      0.4019049406
+    ]
+  },
+  {
+    "question_id":"5abdd2435542991f66106051",
+    "question":"Sanmenxia and Diaobingshan are both cities in what country?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":683,
+    "latency_ms":55.545449,
+    "retrieved_titles":[
+      "Sanmenxia",
+      "Diaobingshan",
+      "Sanmenxia Dam",
+      "List of magazines in China",
+      "Simi Valley, California"
+    ],
+    "similarity_scores":[
+      0.6038110256,
+      0.5784810185,
+      0.5353929996,
+      0.3340607584,
+      0.3166808486
+    ]
+  },
+  {
+    "question_id":"5abdd2435542991f66106051",
+    "question":"Sanmenxia and Diaobingshan are both cities in what country?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":683,
+    "latency_ms":52.4239780002,
+    "retrieved_titles":[
+      "Sanmenxia",
+      "Diaobingshan",
+      "Sanmenxia Dam",
+      "List of magazines in China",
+      "Simi Valley, California"
+    ],
+    "similarity_scores":[
+      0.6038109064,
+      0.5784809589,
+      0.5353927612,
+      0.3340607584,
+      0.3166808486
+    ]
+  },
+  {
+    "question_id":"5abdd2435542991f66106051",
+    "question":"Sanmenxia and Diaobingshan are both cities in what country?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":683,
+    "latency_ms":52.1606530001,
+    "retrieved_titles":[
+      "Sanmenxia",
+      "Diaobingshan",
+      "Sanmenxia Dam",
+      "List of magazines in China",
+      "Simi Valley, California"
+    ],
+    "similarity_scores":[
+      0.6038109064,
+      0.5784809589,
+      0.5353927612,
+      0.3340607584,
+      0.3166808486
+    ]
+  },
+  {
+    "question_id":"5abbe072554299642a094b95",
+    "question":"What is the capital of the Wassa Amenfi West District?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":216,
+    "latency_ms":54.6594830003,
+    "retrieved_titles":[
+      "Wasa Amenfi West District",
+      "Asankragua",
+      "Wassa West District",
+      "Amenfi West (Ghana parliament constituency)",
+      "Aboso"
+    ],
+    "similarity_scores":[
+      0.7574448586,
+      0.6683053374,
+      0.6459476352,
+      0.5755938292,
+      0.5683686137
+    ]
+  },
+  {
+    "question_id":"5abbe072554299642a094b95",
+    "question":"What is the capital of the Wassa Amenfi West District?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":216,
+    "latency_ms":56.6029619999,
+    "retrieved_titles":[
+      "Wasa Amenfi West District",
+      "Asankragua",
+      "Wassa West District",
+      "Amenfi West (Ghana parliament constituency)",
+      "Aboso"
+    ],
+    "similarity_scores":[
+      0.7574448586,
+      0.668305397,
+      0.6459476948,
+      0.5755937696,
+      0.5683686137
+    ]
+  },
+  {
+    "question_id":"5abbe072554299642a094b95",
+    "question":"What is the capital of the Wassa Amenfi West District?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":216,
+    "latency_ms":53.9040510002,
+    "retrieved_titles":[
+      "Wasa Amenfi West District",
+      "Asankragua",
+      "Wassa West District",
+      "Amenfi West (Ghana parliament constituency)",
+      "Aboso"
+    ],
+    "similarity_scores":[
+      0.7574448586,
+      0.668305397,
+      0.6459476948,
+      0.5755937696,
+      0.5683686137
+    ]
+  },
+  {
+    "question_id":"5ab94bc3554299753720f7d9",
+    "question":"The Fault in Our Stars is a romantic drama film that stars what American actress and activist that was born in San Bernardino County, California, and was raised in the Simi Valley?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":939,
+    "latency_ms":54.3312919999,
+    "retrieved_titles":[
+      "Simi Valley, California",
+      "Shailene Woodley",
+      "Sage Ranch Park",
+      "The Fault in Our Stars (film)",
+      "San Bernardino, California"
+    ],
+    "similarity_scores":[
+      0.5261109471,
+      0.4843567908,
+      0.482229054,
+      0.4822083712,
+      0.4631152153
+    ]
+  },
+  {
+    "question_id":"5ab94bc3554299753720f7d9",
+    "question":"The Fault in Our Stars is a romantic drama film that stars what American actress and activist that was born in San Bernardino County, California, and was raised in the Simi Valley?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1138,
+    "latency_ms":56.8209580001,
+    "retrieved_titles":[
+      "Simi Valley, California",
+      "Shailene Woodley",
+      "The Fault in Our Stars (film)",
+      "Sage Ranch Park",
+      "San Bernardino, California"
+    ],
+    "similarity_scores":[
+      0.5261109471,
+      0.4843567908,
+      0.4822083712,
+      0.4759584963,
+      0.4631152153
+    ]
+  },
+  {
+    "question_id":"5ab94bc3554299753720f7d9",
+    "question":"The Fault in Our Stars is a romantic drama film that stars what American actress and activist that was born in San Bernardino County, California, and was raised in the Simi Valley?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1138,
+    "latency_ms":54.6603420003,
+    "retrieved_titles":[
+      "Simi Valley, California",
+      "Shailene Woodley",
+      "The Fault in Our Stars (film)",
+      "Sage Ranch Park",
+      "San Bernardino, California"
+    ],
+    "similarity_scores":[
+      0.5261109471,
+      0.4843567908,
+      0.4822083712,
+      0.4759584963,
+      0.4631152153
+    ]
+  },
+  {
+    "question_id":"5ade80ab5542992fa25da79e",
+    "question":"Abu Hajal Muslim ibn Awsaja was a companion of what prophet who was the founder of islam, and who united Arabia into a single Muslim polity?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":711,
+    "latency_ms":52.6033319998,
+    "retrieved_titles":[
+      "Abu Hajal Muslim ibn Awsaja",
+      "Muhammad",
+      "Muslim ibn al-Hajjaj",
+      "Abu Bara",
+      "Muhammad ibn Muslim and Ibraheem ibn Muslim"
+    ],
+    "similarity_scores":[
+      0.717323184,
+      0.5910797119,
+      0.5123223066,
+      0.5106752515,
+      0.5034404993
+    ]
+  },
+  {
+    "question_id":"5ade80ab5542992fa25da79e",
+    "question":"Abu Hajal Muslim ibn Awsaja was a companion of what prophet who was the founder of islam, and who united Arabia into a single Muslim polity?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":704,
+    "latency_ms":57.5800759998,
+    "retrieved_titles":[
+      "Abu Hajal Muslim ibn Awsaja",
+      "Muhammad",
+      "Muslim ibn al-Hajjaj",
+      "Muhammad ibn Muslim and Ibraheem ibn Muslim",
+      "Muslim ibn Aqeel"
+    ],
+    "similarity_scores":[
+      0.717323184,
+      0.5910798311,
+      0.5123223066,
+      0.5034404993,
+      0.4970924854
+    ]
+  },
+  {
+    "question_id":"5ade80ab5542992fa25da79e",
+    "question":"Abu Hajal Muslim ibn Awsaja was a companion of what prophet who was the founder of islam, and who united Arabia into a single Muslim polity?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":704,
+    "latency_ms":53.060486,
+    "retrieved_titles":[
+      "Abu Hajal Muslim ibn Awsaja",
+      "Muhammad",
+      "Muslim ibn al-Hajjaj",
+      "Muhammad ibn Muslim and Ibraheem ibn Muslim",
+      "Muslim ibn Aqeel"
+    ],
+    "similarity_scores":[
+      0.717323184,
+      0.5910798311,
+      0.5123223066,
+      0.5034404993,
+      0.4970924854
+    ]
+  },
+  {
+    "question_id":"5a77b34a5542997042120aed",
+    "question":"What sport did brothers Steve and Tinker Owens play?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":418,
+    "latency_ms":70.62799,
+    "retrieved_titles":[
+      "Tinker Owens",
+      "Steve Owens (American football)",
+      "Teton Gravity Research",
+      "Dawson Bros.",
+      "Jack Osbourne"
+    ],
+    "similarity_scores":[
+      0.6144841313,
+      0.5116354227,
+      0.4527378082,
+      0.4140484333,
+      0.3948722482
+    ]
+  },
+  {
+    "question_id":"5a77b34a5542997042120aed",
+    "question":"What sport did brothers Steve and Tinker Owens play?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":418,
+    "latency_ms":62.802723,
+    "retrieved_titles":[
+      "Tinker Owens",
+      "Steve Owens (American football)",
+      "Teton Gravity Research",
+      "Dawson Bros.",
+      "Jack Osbourne"
+    ],
+    "similarity_scores":[
+      0.6144841909,
+      0.5116354823,
+      0.4527378082,
+      0.4140484929,
+      0.3948722482
+    ]
+  },
+  {
+    "question_id":"5a77b34a5542997042120aed",
+    "question":"What sport did brothers Steve and Tinker Owens play?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":418,
+    "latency_ms":66.8098199999,
+    "retrieved_titles":[
+      "Tinker Owens",
+      "Steve Owens (American football)",
+      "Teton Gravity Research",
+      "Dawson Bros.",
+      "Jack Osbourne"
+    ],
+    "similarity_scores":[
+      0.6144841909,
+      0.5116354823,
+      0.4527378082,
+      0.4140484929,
+      0.3948722482
+    ]
+  },
+  {
+    "question_id":"5ac4caac554299076e296df9",
+    "question":"What is the difference between Aegopodium a plant genus of the carrot family Apiaceae native to Europe and western Asia and Clitoria?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":382,
+    "latency_ms":65.7177190001,
+    "retrieved_titles":[
+      "Aegopodium",
+      "Aegopodium podagraria",
+      "Clitoria",
+      "Conium",
+      "Neoparrya"
+    ],
+    "similarity_scores":[
+      0.7072464228,
+      0.5696260929,
+      0.5617641211,
+      0.5518348217,
+      0.5328474641
+    ]
+  },
+  {
+    "question_id":"5ac4caac554299076e296df9",
+    "question":"What is the difference between Aegopodium a plant genus of the carrot family Apiaceae native to Europe and western Asia and Clitoria?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":382,
+    "latency_ms":58.9261650002,
+    "retrieved_titles":[
+      "Aegopodium",
+      "Aegopodium podagraria",
+      "Clitoria",
+      "Conium",
+      "Neoparrya"
+    ],
+    "similarity_scores":[
+      0.7072464228,
+      0.5696260929,
+      0.5617642403,
+      0.5518348217,
+      0.5328474641
+    ]
+  },
+  {
+    "question_id":"5ac4caac554299076e296df9",
+    "question":"What is the difference between Aegopodium a plant genus of the carrot family Apiaceae native to Europe and western Asia and Clitoria?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":382,
+    "latency_ms":59.5847539998,
+    "retrieved_titles":[
+      "Aegopodium",
+      "Aegopodium podagraria",
+      "Clitoria",
+      "Conium",
+      "Neoparrya"
+    ],
+    "similarity_scores":[
+      0.7072464228,
+      0.5696260929,
+      0.5617642403,
+      0.5518348217,
+      0.5328474641
+    ]
+  },
+  {
+    "question_id":"5adc9ed2554299473435375b",
+    "question":"Are both John Korty and Charley Chase known for comedies?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":579,
+    "latency_ms":60.713461,
+    "retrieved_titles":[
+      "Charley Chase",
+      "John Korty",
+      "Dog Shy",
+      "Baldwin Cooke",
+      "Crazy like a Fox (1926 film)"
+    ],
+    "similarity_scores":[
+      0.6421511173,
+      0.539385438,
+      0.516788125,
+      0.4791355431,
+      0.4598885179
+    ]
+  },
+  {
+    "question_id":"5adc9ed2554299473435375b",
+    "question":"Are both John Korty and Charley Chase known for comedies?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":579,
+    "latency_ms":70.1373530001,
+    "retrieved_titles":[
+      "Charley Chase",
+      "John Korty",
+      "Dog Shy",
+      "Baldwin Cooke",
+      "Crazy like a Fox (1926 film)"
+    ],
+    "similarity_scores":[
+      0.6421511173,
+      0.539385438,
+      0.516788125,
+      0.4791355431,
+      0.4598885179
+    ]
+  },
+  {
+    "question_id":"5adc9ed2554299473435375b",
+    "question":"Are both John Korty and Charley Chase known for comedies?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":579,
+    "latency_ms":60.0522610002,
+    "retrieved_titles":[
+      "Charley Chase",
+      "John Korty",
+      "Dog Shy",
+      "Baldwin Cooke",
+      "Crazy like a Fox (1926 film)"
+    ],
+    "similarity_scores":[
+      0.6421511173,
+      0.539385438,
+      0.516788125,
+      0.4791355431,
+      0.4598885179
+    ]
+  },
+  {
+    "question_id":"5ae33af65542992f92d82254",
+    "question":"Shock Treatment is a follow up to the film by which studio?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":233,
+    "latency_ms":60.9283409999,
+    "retrieved_titles":[
+      "Shock Treatment",
+      "Shock Treatment (1964 film)",
+      "Shock Treatment (1995 film)",
+      "Shock Treatment (1973 film)",
+      "Shock Treatment (Krizz Kaliko album)"
+    ],
+    "similarity_scores":[
+      0.6649873257,
+      0.5817894936,
+      0.5781333447,
+      0.5539186001,
+      0.536457777
+    ]
+  },
+  {
+    "question_id":"5ae33af65542992f92d82254",
+    "question":"Shock Treatment is a follow up to the film by which studio?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":233,
+    "latency_ms":60.8180070003,
+    "retrieved_titles":[
+      "Shock Treatment",
+      "Shock Treatment (1964 film)",
+      "Shock Treatment (1995 film)",
+      "Shock Treatment (1973 film)",
+      "Shock Treatment (Krizz Kaliko album)"
+    ],
+    "similarity_scores":[
+      0.6649871469,
+      0.5817893744,
+      0.5781333447,
+      0.5539186001,
+      0.536457777
+    ]
+  },
+  {
+    "question_id":"5ae33af65542992f92d82254",
+    "question":"Shock Treatment is a follow up to the film by which studio?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":233,
+    "latency_ms":60.9162379997,
+    "retrieved_titles":[
+      "Shock Treatment",
+      "Shock Treatment (1964 film)",
+      "Shock Treatment (1995 film)",
+      "Shock Treatment (1973 film)",
+      "Shock Treatment (Krizz Kaliko album)"
+    ],
+    "similarity_scores":[
+      0.6649871469,
+      0.5817893744,
+      0.5781333447,
+      0.5539186001,
+      0.536457777
+    ]
+  },
+  {
+    "question_id":"5a727c6c5542991f9a20c48f",
+    "question":"Who was born 29 August 1959 and is the former International Space Station Commander Colonel?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":597,
+    "latency_ms":56.65344,
+    "retrieved_titles":[
+      "Timothy Kopra",
+      "Chris Hadfield",
+      "Alvin Drew",
+      "Joseph M. Acaba",
+      "Bruce McCandless II"
+    ],
+    "similarity_scores":[
+      0.5832934976,
+      0.5096260309,
+      0.4686096907,
+      0.4648523033,
+      0.4524496794
+    ]
+  },
+  {
+    "question_id":"5a727c6c5542991f9a20c48f",
+    "question":"Who was born 29 August 1959 and is the former International Space Station Commander Colonel?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":597,
+    "latency_ms":56.6516979998,
+    "retrieved_titles":[
+      "Timothy Kopra",
+      "Chris Hadfield",
+      "Alvin Drew",
+      "Joseph M. Acaba",
+      "Bruce McCandless II"
+    ],
+    "similarity_scores":[
+      0.5832934976,
+      0.5096260309,
+      0.4686096907,
+      0.4648523033,
+      0.4524496794
+    ]
+  },
+  {
+    "question_id":"5a727c6c5542991f9a20c48f",
+    "question":"Who was born 29 August 1959 and is the former International Space Station Commander Colonel?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":597,
+    "latency_ms":61.276465,
+    "retrieved_titles":[
+      "Timothy Kopra",
+      "Chris Hadfield",
+      "Alvin Drew",
+      "Joseph M. Acaba",
+      "Bruce McCandless II"
+    ],
+    "similarity_scores":[
+      0.5832934976,
+      0.5096260309,
+      0.4686096907,
+      0.4648523033,
+      0.4524496794
+    ]
+  },
+  {
+    "question_id":"5ae245be5542996483e64954",
+    "question":"George R. R. Martin and Simone de Beauvoir, have which occupation in common?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":574,
+    "latency_ms":61.5814000003,
+    "retrieved_titles":[
+      "Simone de Beauvoir",
+      "George R. R. Martin",
+      "Simone de Beauvoir Prize",
+      "When Things of the Spirit Come First",
+      "Sylvie Le Bon-de Beauvoir"
+    ],
+    "similarity_scores":[
+      0.5692306757,
+      0.5522203445,
+      0.5382708311,
+      0.5331584215,
+      0.5051214695
+    ]
+  },
+  {
+    "question_id":"5ae245be5542996483e64954",
+    "question":"George R. R. Martin and Simone de Beauvoir, have which occupation in common?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":647,
+    "latency_ms":68.2418920001,
+    "retrieved_titles":[
+      "Simone de Beauvoir",
+      "George R. R. Martin",
+      "When Things of the Spirit Come First",
+      "Simone de Beauvoir Prize",
+      "Sylvie Le Bon-de Beauvoir"
+    ],
+    "similarity_scores":[
+      0.5692306757,
+      0.5522203445,
+      0.5439816713,
+      0.5382708311,
+      0.5051214695
+    ]
+  },
+  {
+    "question_id":"5ae245be5542996483e64954",
+    "question":"George R. R. Martin and Simone de Beauvoir, have which occupation in common?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":647,
+    "latency_ms":65.874206,
+    "retrieved_titles":[
+      "Simone de Beauvoir",
+      "George R. R. Martin",
+      "When Things of the Spirit Come First",
+      "Simone de Beauvoir Prize",
+      "Sylvie Le Bon-de Beauvoir"
+    ],
+    "similarity_scores":[
+      0.5692306757,
+      0.5522203445,
+      0.5439816713,
+      0.5382708311,
+      0.5051214695
+    ]
+  },
+  {
+    "question_id":"5ac208385542992f1f2b37dd",
+    "question":"Who starred in the Netflix series \"Stranger Things\" and the cancelled series \"Proof\"?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.75,
+    "retrieved_tokens":297,
+    "latency_ms":72.5232660002,
+    "retrieved_titles":[
+      "Proof (2015 TV series)",
+      "Stranger Things (disambiguation)",
+      "Rob Morgan (actor)",
+      "David Harbour",
+      "Eleven (Stranger Things)"
+    ],
+    "similarity_scores":[
+      0.6303266287,
+      0.5816736817,
+      0.5398033857,
+      0.5262848139,
+      0.5001145601
+    ]
+  },
+  {
+    "question_id":"5ac208385542992f1f2b37dd",
+    "question":"Who starred in the Netflix series \"Stranger Things\" and the cancelled series \"Proof\"?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.75,
+    "retrieved_tokens":297,
+    "latency_ms":68.3141089999,
+    "retrieved_titles":[
+      "Proof (2015 TV series)",
+      "Stranger Things (disambiguation)",
+      "Rob Morgan (actor)",
+      "David Harbour",
+      "Eleven (Stranger Things)"
+    ],
+    "similarity_scores":[
+      0.6303266287,
+      0.5816736221,
+      0.5398033857,
+      0.5262848139,
+      0.5001145601
+    ]
+  },
+  {
+    "question_id":"5ac208385542992f1f2b37dd",
+    "question":"Who starred in the Netflix series \"Stranger Things\" and the cancelled series \"Proof\"?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.75,
+    "retrieved_tokens":297,
+    "latency_ms":61.0214369999,
+    "retrieved_titles":[
+      "Proof (2015 TV series)",
+      "Stranger Things (disambiguation)",
+      "Rob Morgan (actor)",
+      "David Harbour",
+      "Eleven (Stranger Things)"
+    ],
+    "similarity_scores":[
+      0.6303266287,
+      0.5816736221,
+      0.5398033857,
+      0.5262848139,
+      0.5001145601
+    ]
+  },
+  {
+    "question_id":"5ac224125542992f1f2b3812",
+    "question":"Where was the Cantillon Brewry located?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":644,
+    "latency_ms":57.0476369999,
+    "retrieved_titles":[
+      "Cantillon Brewery",
+      "Lambic",
+      "Brackenhill Tower",
+      "Westlinton",
+      "Les Troyens"
+    ],
+    "similarity_scores":[
+      0.6796448231,
+      0.5034781098,
+      0.4101471305,
+      0.3747685552,
+      0.3707476258
+    ]
+  },
+  {
+    "question_id":"5ac224125542992f1f2b3812",
+    "question":"Where was the Cantillon Brewry located?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":644,
+    "latency_ms":61.2601449998,
+    "retrieved_titles":[
+      "Cantillon Brewery",
+      "Lambic",
+      "Brackenhill Tower",
+      "Westlinton",
+      "Les Troyens"
+    ],
+    "similarity_scores":[
+      0.6796448231,
+      0.5034781098,
+      0.4101471305,
+      0.3747685552,
+      0.3707476258
+    ]
+  },
+  {
+    "question_id":"5ac224125542992f1f2b3812",
+    "question":"Where was the Cantillon Brewry located?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":644,
+    "latency_ms":66.2535070001,
+    "retrieved_titles":[
+      "Cantillon Brewery",
+      "Lambic",
+      "Brackenhill Tower",
+      "Westlinton",
+      "Les Troyens"
+    ],
+    "similarity_scores":[
+      0.6796448231,
+      0.5034781098,
+      0.4101471305,
+      0.3747685552,
+      0.3707476258
+    ]
+  },
+  {
+    "question_id":"5a835ea15542992ef85e2297",
+    "question":"What serial killer was prosecuted by Bobby Grace in 2007?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":557,
+    "latency_ms":60.589274,
+    "retrieved_titles":[
+      "Bobby Grace",
+      "Daytona Beach killer",
+      "My Brother the Serial Killer",
+      "Charles Cullen",
+      "Chester Turner"
+    ],
+    "similarity_scores":[
+      0.5320925713,
+      0.5126213431,
+      0.4663594663,
+      0.4616734385,
+      0.4543049335
+    ]
+  },
+  {
+    "question_id":"5a835ea15542992ef85e2297",
+    "question":"What serial killer was prosecuted by Bobby Grace in 2007?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":557,
+    "latency_ms":68.7755119998,
+    "retrieved_titles":[
+      "Bobby Grace",
+      "Daytona Beach killer",
+      "My Brother the Serial Killer",
+      "Charles Cullen",
+      "Chester Turner"
+    ],
+    "similarity_scores":[
+      0.5320925713,
+      0.5126212835,
+      0.4663594663,
+      0.4616734385,
+      0.4543049335
+    ]
+  },
+  {
+    "question_id":"5a835ea15542992ef85e2297",
+    "question":"What serial killer was prosecuted by Bobby Grace in 2007?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":557,
+    "latency_ms":68.0858310002,
+    "retrieved_titles":[
+      "Bobby Grace",
+      "Daytona Beach killer",
+      "My Brother the Serial Killer",
+      "Charles Cullen",
+      "Chester Turner"
+    ],
+    "similarity_scores":[
+      0.5320925713,
+      0.5126212835,
+      0.4663594663,
+      0.4616734385,
+      0.4543049335
+    ]
+  },
+  {
+    "question_id":"5ae739ae5542991e8301cbf8",
+    "question":"What is the nationality of the painter that painted the Sorrow of Telemachus?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":760,
+    "latency_ms":67.065235,
+    "retrieved_titles":[
+      "The Sorrow of Telemachus",
+      "Angelica Kauffman",
+      "Enrico Coleman",
+      "Eretria Painter",
+      "Tarporley Painter"
+    ],
+    "similarity_scores":[
+      0.6665862799,
+      0.45185709,
+      0.4448329806,
+      0.4294413626,
+      0.4258099198
+    ]
+  },
+  {
+    "question_id":"5ae739ae5542991e8301cbf8",
+    "question":"What is the nationality of the painter that painted the Sorrow of Telemachus?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":884,
+    "latency_ms":60.7887579999,
+    "retrieved_titles":[
+      "The Sorrow of Telemachus",
+      "Angelica Kauffman",
+      "Enrico Coleman",
+      "Eretria Painter",
+      "Tarporley Painter"
+    ],
+    "similarity_scores":[
+      0.6665862799,
+      0.451857239,
+      0.4448328614,
+      0.4275459349,
+      0.4267013669
+    ]
+  },
+  {
+    "question_id":"5ae739ae5542991e8301cbf8",
+    "question":"What is the nationality of the painter that painted the Sorrow of Telemachus?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":884,
+    "latency_ms":69.3161660001,
+    "retrieved_titles":[
+      "The Sorrow of Telemachus",
+      "Angelica Kauffman",
+      "Enrico Coleman",
+      "Eretria Painter",
+      "Tarporley Painter"
+    ],
+    "similarity_scores":[
+      0.6665862799,
+      0.451857239,
+      0.4448328614,
+      0.4275459349,
+      0.4267013669
+    ]
+  },
+  {
+    "question_id":"5ac4dd94554299076e296e22",
+    "question":"Byron McCandless was the grandfather of what former naval officer who made the first ever untethered free flight using the Manned Maneuvering Unit in 1984?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":668,
+    "latency_ms":69.7641480001,
+    "retrieved_titles":[
+      "Bruce McCandless II",
+      "Byron McCandless",
+      "Manned Maneuvering Unit",
+      "Alan Bean",
+      "Hand-Held Maneuvering Unit"
+    ],
+    "similarity_scores":[
+      0.7634491324,
+      0.5752719045,
+      0.5214134455,
+      0.4543984234,
+      0.4465572834
+    ]
+  },
+  {
+    "question_id":"5ac4dd94554299076e296e22",
+    "question":"Byron McCandless was the grandfather of what former naval officer who made the first ever untethered free flight using the Manned Maneuvering Unit in 1984?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":668,
+    "latency_ms":54.846388,
+    "retrieved_titles":[
+      "Bruce McCandless II",
+      "Byron McCandless",
+      "Manned Maneuvering Unit",
+      "Alan Bean",
+      "Hand-Held Maneuvering Unit"
+    ],
+    "similarity_scores":[
+      0.7634491324,
+      0.5752720237,
+      0.5214134455,
+      0.454398483,
+      0.4465572238
+    ]
+  },
+  {
+    "question_id":"5ac4dd94554299076e296e22",
+    "question":"Byron McCandless was the grandfather of what former naval officer who made the first ever untethered free flight using the Manned Maneuvering Unit in 1984?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":668,
+    "latency_ms":49.9884649998,
+    "retrieved_titles":[
+      "Bruce McCandless II",
+      "Byron McCandless",
+      "Manned Maneuvering Unit",
+      "Alan Bean",
+      "Hand-Held Maneuvering Unit"
+    ],
+    "similarity_scores":[
+      0.7634491324,
+      0.5752720237,
+      0.5214134455,
+      0.454398483,
+      0.4465572238
+    ]
+  },
+  {
+    "question_id":"5a77e72955429967ab1052e1",
+    "question":"Charles Williams went to what school that was founded in 1855?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":500,
+    "latency_ms":50.7868779996,
+    "retrieved_titles":[
+      "Charles Holston Williams",
+      "Charles Williams House",
+      "Charles Williams Jr. House",
+      "Charles Williams (album)",
+      "Berea College"
+    ],
+    "similarity_scores":[
+      0.6133807898,
+      0.5059847832,
+      0.4826776981,
+      0.4643165469,
+      0.415481925
+    ]
+  },
+  {
+    "question_id":"5a77e72955429967ab1052e1",
+    "question":"Charles Williams went to what school that was founded in 1855?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":500,
+    "latency_ms":62.079109,
+    "retrieved_titles":[
+      "Charles Holston Williams",
+      "Charles Williams House",
+      "Charles Williams Jr. House",
+      "Charles Williams (album)",
+      "Berea College"
+    ],
+    "similarity_scores":[
+      0.6133807302,
+      0.5059849024,
+      0.4826776683,
+      0.4643165469,
+      0.415481925
+    ]
+  },
+  {
+    "question_id":"5a77e72955429967ab1052e1",
+    "question":"Charles Williams went to what school that was founded in 1855?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":500,
+    "latency_ms":64.5356149998,
+    "retrieved_titles":[
+      "Charles Holston Williams",
+      "Charles Williams House",
+      "Charles Williams Jr. House",
+      "Charles Williams (album)",
+      "Berea College"
+    ],
+    "similarity_scores":[
+      0.6133807302,
+      0.5059849024,
+      0.4826776683,
+      0.4643165469,
+      0.415481925
+    ]
+  },
+  {
+    "question_id":"5ae142d75542997b2ef7d194",
+    "question":"Bonfire is a five-disc box set by Australian band AC\/DC, released in which year, it was created as a tribute to the band's earlier singer Bon Scott, it contained a remastered version of \"Back in Black\"?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":885,
+    "latency_ms":53.2251150003,
+    "retrieved_titles":[
+      "Bonfire (album)",
+      "Back in Black",
+      "Back in Black (song)",
+      "List of awards and nominations received by AC\/DC",
+      "Long Way to the Top (album)"
+    ],
+    "similarity_scores":[
+      0.8547115326,
+      0.6571595073,
+      0.6362868547,
+      0.5902787447,
+      0.5722097158
+    ]
+  },
+  {
+    "question_id":"5ae142d75542997b2ef7d194",
+    "question":"Bonfire is a five-disc box set by Australian band AC\/DC, released in which year, it was created as a tribute to the band's earlier singer Bon Scott, it contained a remastered version of \"Back in Black\"?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1057,
+    "latency_ms":60.7338129998,
+    "retrieved_titles":[
+      "Bonfire (album)",
+      "Back in Black",
+      "Back in Black (song)",
+      "List of awards and nominations received by AC\/DC",
+      "Long Way to the Top (album)"
+    ],
+    "similarity_scores":[
+      0.8547115326,
+      0.6571595669,
+      0.6357463002,
+      0.6043474674,
+      0.5722099543
+    ]
+  },
+  {
+    "question_id":"5ae142d75542997b2ef7d194",
+    "question":"Bonfire is a five-disc box set by Australian band AC\/DC, released in which year, it was created as a tribute to the band's earlier singer Bon Scott, it contained a remastered version of \"Back in Black\"?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":1057,
+    "latency_ms":54.5465519999,
+    "retrieved_titles":[
+      "Bonfire (album)",
+      "Back in Black",
+      "Back in Black (song)",
+      "List of awards and nominations received by AC\/DC",
+      "Long Way to the Top (album)"
+    ],
+    "similarity_scores":[
+      0.8547115326,
+      0.6571595669,
+      0.6357463002,
+      0.6043474674,
+      0.5722099543
+    ]
+  },
+  {
+    "question_id":"5ac154465542994d76dccdd5",
+    "question":"Who nominated the justice who wrote the majority opinion in the Supreme Court case Christopher v. SmithKline Beecham Corp?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":759,
+    "latency_ms":64.6077689998,
+    "retrieved_titles":[
+      "Christopher v. SmithKline Beecham Corp.",
+      "United States v. GlaxoSmithKline",
+      "William Scott (Missouri)",
+      "Burnham v. Superior Court of California",
+      "Manuel v. Joliet"
+    ],
+    "similarity_scores":[
+      0.6061528921,
+      0.5062141418,
+      0.4525260329,
+      0.4487027526,
+      0.4385790825
+    ]
+  },
+  {
+    "question_id":"5ac154465542994d76dccdd5",
+    "question":"Who nominated the justice who wrote the majority opinion in the Supreme Court case Christopher v. SmithKline Beecham Corp?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":759,
+    "latency_ms":55.653805,
+    "retrieved_titles":[
+      "Christopher v. SmithKline Beecham Corp.",
+      "United States v. GlaxoSmithKline",
+      "William Scott (Missouri)",
+      "Burnham v. Superior Court of California",
+      "Manuel v. Joliet"
+    ],
+    "similarity_scores":[
+      0.6061527133,
+      0.5062140226,
+      0.4525260329,
+      0.4487028718,
+      0.4385792613
+    ]
+  },
+  {
+    "question_id":"5ac154465542994d76dccdd5",
+    "question":"Who nominated the justice who wrote the majority opinion in the Supreme Court case Christopher v. SmithKline Beecham Corp?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":759,
+    "latency_ms":52.4548620001,
+    "retrieved_titles":[
+      "Christopher v. SmithKline Beecham Corp.",
+      "United States v. GlaxoSmithKline",
+      "William Scott (Missouri)",
+      "Burnham v. Superior Court of California",
+      "Manuel v. Joliet"
+    ],
+    "similarity_scores":[
+      0.6061527133,
+      0.5062140226,
+      0.4525260329,
+      0.4487028718,
+      0.4385792613
+    ]
+  },
+  {
+    "question_id":"5ac532a75542994611c8b420",
+    "question":"Kelli Ali and Justin Currie, share which occupation?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":202,
+    "latency_ms":49.4017790002,
+    "retrieved_titles":[
+      "Justin Currie",
+      "Justin Currie (American football)",
+      "The Great War (album)",
+      "What Is Love For",
+      "Lower Reaches"
+    ],
+    "similarity_scores":[
+      0.5965207815,
+      0.5668663383,
+      0.5656706095,
+      0.5603019595,
+      0.5576938391
+    ]
+  },
+  {
+    "question_id":"5ac532a75542994611c8b420",
+    "question":"Kelli Ali and Justin Currie, share which occupation?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":202,
+    "latency_ms":50.137147,
+    "retrieved_titles":[
+      "Justin Currie",
+      "Justin Currie (American football)",
+      "The Great War (album)",
+      "What Is Love For",
+      "Lower Reaches"
+    ],
+    "similarity_scores":[
+      0.5965207219,
+      0.5668661594,
+      0.5656706095,
+      0.5603019595,
+      0.5576938391
+    ]
+  },
+  {
+    "question_id":"5ac532a75542994611c8b420",
+    "question":"Kelli Ali and Justin Currie, share which occupation?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":202,
+    "latency_ms":51.3518329999,
+    "retrieved_titles":[
+      "Justin Currie",
+      "Justin Currie (American football)",
+      "The Great War (album)",
+      "What Is Love For",
+      "Lower Reaches"
+    ],
+    "similarity_scores":[
+      0.5965207219,
+      0.5668661594,
+      0.5656706095,
+      0.5603019595,
+      0.5576938391
+    ]
+  },
+  {
+    "question_id":"5a9096d85542995651fb51a3",
+    "question":"Are Watertown International Airport and Alexandria International Airport both airports in the same state ?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":633,
+    "latency_ms":48.7421390003,
+    "retrieved_titles":[
+      "Watertown International Airport",
+      "Alexandria International Airport (Louisiana)",
+      "El Nouzha Airport",
+      "List of airports in the Greater Toronto Area",
+      "New York State Route 12F"
+    ],
+    "similarity_scores":[
+      0.6316716671,
+      0.6075607538,
+      0.5532164574,
+      0.4830755293,
+      0.4802060723
+    ]
+  },
+  {
+    "question_id":"5a9096d85542995651fb51a3",
+    "question":"Are Watertown International Airport and Alexandria International Airport both airports in the same state ?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":633,
+    "latency_ms":46.3907550002,
+    "retrieved_titles":[
+      "Watertown International Airport",
+      "Alexandria International Airport (Louisiana)",
+      "El Nouzha Airport",
+      "List of airports in the Greater Toronto Area",
+      "New York State Route 12F"
+    ],
+    "similarity_scores":[
+      0.6316716671,
+      0.6075607538,
+      0.5532164574,
+      0.4830756783,
+      0.4802060723
+    ]
+  },
+  {
+    "question_id":"5a9096d85542995651fb51a3",
+    "question":"Are Watertown International Airport and Alexandria International Airport both airports in the same state ?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":633,
+    "latency_ms":48.1183280003,
+    "retrieved_titles":[
+      "Watertown International Airport",
+      "Alexandria International Airport (Louisiana)",
+      "El Nouzha Airport",
+      "List of airports in the Greater Toronto Area",
+      "New York State Route 12F"
+    ],
+    "similarity_scores":[
+      0.6316716671,
+      0.6075607538,
+      0.5532164574,
+      0.4830756783,
+      0.4802060723
+    ]
+  },
+  {
+    "question_id":"5adf46fc5542995ec70e8fb4",
+    "question":"Which magazine, Elle and Damernas V\u00e4rld,  is published in Sweden?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":397,
+    "latency_ms":48.9009020002,
+    "retrieved_titles":[
+      "Damernas V\u00e4rld",
+      "Elle (magazine)",
+      "Elle Girl",
+      "Teknikens V\u00e4rld",
+      "Swedish Press"
+    ],
+    "similarity_scores":[
+      0.6809902787,
+      0.596405983,
+      0.5605445504,
+      0.5512398481,
+      0.513109684
+    ]
+  },
+  {
+    "question_id":"5adf46fc5542995ec70e8fb4",
+    "question":"Which magazine, Elle and Damernas V\u00e4rld,  is published in Sweden?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":397,
+    "latency_ms":47.9965879999,
+    "retrieved_titles":[
+      "Damernas V\u00e4rld",
+      "Elle (magazine)",
+      "Elle Girl",
+      "Teknikens V\u00e4rld",
+      "Swedish Press"
+    ],
+    "similarity_scores":[
+      0.6809903383,
+      0.596405983,
+      0.5605445504,
+      0.5512399673,
+      0.513109684
+    ]
+  },
+  {
+    "question_id":"5adf46fc5542995ec70e8fb4",
+    "question":"Which magazine, Elle and Damernas V\u00e4rld,  is published in Sweden?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":397,
+    "latency_ms":50.821237,
+    "retrieved_titles":[
+      "Damernas V\u00e4rld",
+      "Elle (magazine)",
+      "Elle Girl",
+      "Teknikens V\u00e4rld",
+      "Swedish Press"
+    ],
+    "similarity_scores":[
+      0.6809903383,
+      0.596405983,
+      0.5605445504,
+      0.5512399673,
+      0.513109684
+    ]
+  },
+  {
+    "question_id":"5a78c2ff554299029c4b5e82",
+    "question":"Who is a bestselling American writer known for his fictional and non-fictional accounts of police work in the United States, Joseph Wambaugh or Helen Zahavi?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":553,
+    "latency_ms":47.8149230003,
+    "retrieved_titles":[
+      "Joseph Wambaugh",
+      "The New Centurions (novel)",
+      "Helen Zahavi",
+      "Gregory Powell (murderer)",
+      "Cathy Scott"
+    ],
+    "similarity_scores":[
+      0.7269169092,
+      0.571757257,
+      0.5353614092,
+      0.4488818944,
+      0.4243327677
+    ]
+  },
+  {
+    "question_id":"5a78c2ff554299029c4b5e82",
+    "question":"Who is a bestselling American writer known for his fictional and non-fictional accounts of police work in the United States, Joseph Wambaugh or Helen Zahavi?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":553,
+    "latency_ms":47.497135,
+    "retrieved_titles":[
+      "Joseph Wambaugh",
+      "The New Centurions (novel)",
+      "Helen Zahavi",
+      "Gregory Powell (murderer)",
+      "Cathy Scott"
+    ],
+    "similarity_scores":[
+      0.72691679,
+      0.5717574358,
+      0.5353614092,
+      0.4488818944,
+      0.4243329763
+    ]
+  },
+  {
+    "question_id":"5a78c2ff554299029c4b5e82",
+    "question":"Who is a bestselling American writer known for his fictional and non-fictional accounts of police work in the United States, Joseph Wambaugh or Helen Zahavi?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":553,
+    "latency_ms":45.5810869998,
+    "retrieved_titles":[
+      "Joseph Wambaugh",
+      "The New Centurions (novel)",
+      "Helen Zahavi",
+      "Gregory Powell (murderer)",
+      "Cathy Scott"
+    ],
+    "similarity_scores":[
+      0.72691679,
+      0.5717574358,
+      0.5353614092,
+      0.4488818944,
+      0.4243329763
+    ]
+  },
+  {
+    "question_id":"5ae325d75542994393b9e635",
+    "question":"What nationality are both Monte Hellman and Stephen Sommers?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":472,
+    "latency_ms":52.0548270001,
+    "retrieved_titles":[
+      "Monte Hellman",
+      "Stephen Sommers",
+      "Road to Nowhere (film)",
+      "The Shooting",
+      "Enrico Coleman"
+    ],
+    "similarity_scores":[
+      0.5778162479,
+      0.5246813297,
+      0.4188534021,
+      0.3914781809,
+      0.3405203819
+    ]
+  },
+  {
+    "question_id":"5ae325d75542994393b9e635",
+    "question":"What nationality are both Monte Hellman and Stephen Sommers?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":472,
+    "latency_ms":53.6054899999,
+    "retrieved_titles":[
+      "Monte Hellman",
+      "Stephen Sommers",
+      "Road to Nowhere (film)",
+      "The Shooting",
+      "Enrico Coleman"
+    ],
+    "similarity_scores":[
+      0.5778163671,
+      0.5246814489,
+      0.4188533425,
+      0.3914781809,
+      0.3405203223
+    ]
+  },
+  {
+    "question_id":"5ae325d75542994393b9e635",
+    "question":"What nationality are both Monte Hellman and Stephen Sommers?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":472,
+    "latency_ms":50.647135,
+    "retrieved_titles":[
+      "Monte Hellman",
+      "Stephen Sommers",
+      "Road to Nowhere (film)",
+      "The Shooting",
+      "Enrico Coleman"
+    ],
+    "similarity_scores":[
+      0.5778163671,
+      0.5246814489,
+      0.4188533425,
+      0.3914781809,
+      0.3405203223
+    ]
+  },
+  {
+    "question_id":"5ab7b0ba5542992aa3b8c840",
+    "question":"Battlestar Galactica starred which actor and director?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":766,
+    "latency_ms":48.8764870001,
+    "retrieved_titles":[
+      "Battlestar Galactica (1978 TV series)",
+      "Battlestar Galactica (2004 TV series)",
+      "Battlestar Galactica (miniseries)",
+      "Edward James Olmos",
+      "Battlestar Galactica"
+    ],
+    "similarity_scores":[
+      0.6257722378,
+      0.5977581739,
+      0.5867738724,
+      0.5665321946,
+      0.563374877
+    ]
+  },
+  {
+    "question_id":"5ab7b0ba5542992aa3b8c840",
+    "question":"Battlestar Galactica starred which actor and director?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":766,
+    "latency_ms":55.1255600003,
+    "retrieved_titles":[
+      "Battlestar Galactica (1978 TV series)",
+      "Battlestar Galactica (2004 TV series)",
+      "Battlestar Galactica (miniseries)",
+      "Edward James Olmos",
+      "Battlestar Galactica"
+    ],
+    "similarity_scores":[
+      0.6257722378,
+      0.5977581739,
+      0.5867738724,
+      0.5665320158,
+      0.563374877
+    ]
+  },
+  {
+    "question_id":"5ab7b0ba5542992aa3b8c840",
+    "question":"Battlestar Galactica starred which actor and director?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":766,
+    "latency_ms":59.0378730003,
+    "retrieved_titles":[
+      "Battlestar Galactica (1978 TV series)",
+      "Battlestar Galactica (2004 TV series)",
+      "Battlestar Galactica (miniseries)",
+      "Edward James Olmos",
+      "Battlestar Galactica"
+    ],
+    "similarity_scores":[
+      0.6257722378,
+      0.5977581739,
+      0.5867738724,
+      0.5665320158,
+      0.563374877
+    ]
+  },
+  {
+    "question_id":"5ae471e255429970de88d964",
+    "question":"Which superhero created by Jerry Siegel and artist Joe Shuster was featured in virtually every issue of World's Finest Comics?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":561,
+    "latency_ms":50.616817,
+    "retrieved_titles":[
+      "Superboy (Kal-El)",
+      "Action Comics 1",
+      "Superman",
+      "World's Finest Comics",
+      "Doctor Occult"
+    ],
+    "similarity_scores":[
+      0.573523283,
+      0.5570944548,
+      0.5417248607,
+      0.5055812597,
+      0.4840154052
+    ]
+  },
+  {
+    "question_id":"5ae471e255429970de88d964",
+    "question":"Which superhero created by Jerry Siegel and artist Joe Shuster was featured in virtually every issue of World's Finest Comics?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":561,
+    "latency_ms":48.4569970004,
+    "retrieved_titles":[
+      "Superboy (Kal-El)",
+      "Action Comics 1",
+      "Superman",
+      "World's Finest Comics",
+      "Doctor Occult"
+    ],
+    "similarity_scores":[
+      0.573523283,
+      0.5570944548,
+      0.5417248607,
+      0.5055812597,
+      0.4840154052
+    ]
+  },
+  {
+    "question_id":"5ae471e255429970de88d964",
+    "question":"Which superhero created by Jerry Siegel and artist Joe Shuster was featured in virtually every issue of World's Finest Comics?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":561,
+    "latency_ms":48.9795439998,
+    "retrieved_titles":[
+      "Superboy (Kal-El)",
+      "Action Comics 1",
+      "Superman",
+      "World's Finest Comics",
+      "Doctor Occult"
+    ],
+    "similarity_scores":[
+      0.573523283,
+      0.5570944548,
+      0.5417248607,
+      0.5055812597,
+      0.4840154052
+    ]
+  },
+  {
+    "question_id":"5a7f87ee55429969796c1a99",
+    "question":"Myles Kennedy and Robert Palmer, share which mutual occupations?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":678,
+    "latency_ms":48.8223769999,
+    "retrieved_titles":[
+      "Robert Palmer (singer)",
+      "Myles Kennedy",
+      "Myles Kennedy discography",
+      "Clues (Robert Palmer album)",
+      "Addictions: Volume II"
+    ],
+    "similarity_scores":[
+      0.5672869086,
+      0.5281702876,
+      0.4757213295,
+      0.4525410533,
+      0.4372634292
+    ]
+  },
+  {
+    "question_id":"5a7f87ee55429969796c1a99",
+    "question":"Myles Kennedy and Robert Palmer, share which mutual occupations?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":723,
+    "latency_ms":49.2890200003,
+    "retrieved_titles":[
+      "Robert Palmer (singer)",
+      "Myles Kennedy",
+      "Myles Kennedy discography",
+      "Clues (Robert Palmer album)",
+      "Addictions: Volume II"
+    ],
+    "similarity_scores":[
+      0.5672869086,
+      0.5281702876,
+      0.4705572724,
+      0.4525410533,
+      0.4372634292
+    ]
+  },
+  {
+    "question_id":"5a7f87ee55429969796c1a99",
+    "question":"Myles Kennedy and Robert Palmer, share which mutual occupations?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":723,
+    "latency_ms":46.7870300004,
+    "retrieved_titles":[
+      "Robert Palmer (singer)",
+      "Myles Kennedy",
+      "Myles Kennedy discography",
+      "Clues (Robert Palmer album)",
+      "Addictions: Volume II"
+    ],
+    "similarity_scores":[
+      0.5672869086,
+      0.5281702876,
+      0.4705572724,
+      0.4525410533,
+      0.4372634292
+    ]
+  },
+  {
+    "question_id":"5ab1f559554299340b52543d",
+    "question":"That's Life and My Weekly, are a type of what?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":666,
+    "latency_ms":47.9627989998,
+    "retrieved_titles":[
+      "That's Life (magazine)",
+      "Life (magazine)",
+      "G. K.'s Weekly",
+      "Khasokhas Weekly",
+      "Alternative newspaper"
+    ],
+    "similarity_scores":[
+      0.5927063227,
+      0.5314227939,
+      0.4758336544,
+      0.4731797874,
+      0.4668142796
+    ]
+  },
+  {
+    "question_id":"5ab1f559554299340b52543d",
+    "question":"That's Life and My Weekly, are a type of what?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":666,
+    "latency_ms":56.343447,
+    "retrieved_titles":[
+      "That's Life (magazine)",
+      "Life (magazine)",
+      "G. K.'s Weekly",
+      "Khasokhas Weekly",
+      "Alternative newspaper"
+    ],
+    "similarity_scores":[
+      0.5927063227,
+      0.5314226747,
+      0.4758336544,
+      0.4731797874,
+      0.4668142796
+    ]
+  },
+  {
+    "question_id":"5ab1f559554299340b52543d",
+    "question":"That's Life and My Weekly, are a type of what?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":666,
+    "latency_ms":52.7352270001,
+    "retrieved_titles":[
+      "That's Life (magazine)",
+      "Life (magazine)",
+      "G. K.'s Weekly",
+      "Khasokhas Weekly",
+      "Alternative newspaper"
+    ],
+    "similarity_scores":[
+      0.5927063227,
+      0.5314226747,
+      0.4758336544,
+      0.4731797874,
+      0.4668142796
+    ]
+  },
+  {
+    "question_id":"5ab7e55b5542995dae37e9e1",
+    "question":"Who is a judge on The X Factor and is also married to Ozzy Osbourne?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":930,
+    "latency_ms":52.4857730002,
+    "retrieved_titles":[
+      "Sharon Osbourne",
+      "The X Factor (UK series 11)",
+      "The X Factor (UK series 5)",
+      "Jack Osbourne",
+      "Ozzfest"
+    ],
+    "similarity_scores":[
+      0.7340507507,
+      0.6146423817,
+      0.5850322843,
+      0.5604143143,
+      0.5105913877
+    ]
+  },
+  {
+    "question_id":"5ab7e55b5542995dae37e9e1",
+    "question":"Who is a judge on The X Factor and is also married to Ozzy Osbourne?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":998,
+    "latency_ms":49.814859,
+    "retrieved_titles":[
+      "Sharon Osbourne",
+      "The X Factor (UK series 11)",
+      "The X Factor (UK series 5)",
+      "Jack Osbourne",
+      "Ozzfest"
+    ],
+    "similarity_scores":[
+      0.7340507507,
+      0.616641283,
+      0.5850323439,
+      0.5604143143,
+      0.5105913877
+    ]
+  },
+  {
+    "question_id":"5ab7e55b5542995dae37e9e1",
+    "question":"Who is a judge on The X Factor and is also married to Ozzy Osbourne?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":998,
+    "latency_ms":46.9450190003,
+    "retrieved_titles":[
+      "Sharon Osbourne",
+      "The X Factor (UK series 11)",
+      "The X Factor (UK series 5)",
+      "Jack Osbourne",
+      "Ozzfest"
+    ],
+    "similarity_scores":[
+      0.7340507507,
+      0.616641283,
+      0.5850323439,
+      0.5604143143,
+      0.5105913877
+    ]
+  },
+  {
+    "question_id":"5a802de15542992bc0c4a6c6",
+    "question":"Karty was a writer in the weekly magazine published in what Indian city?",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":567,
+    "latency_ms":42.5835579999,
+    "retrieved_titles":[
+      "Avadhanam Sita Raman",
+      "Raknno",
+      "Khasokhas Weekly",
+      "Mathrubhumi Azhchappathippu",
+      "Kumudam"
+    ],
+    "similarity_scores":[
+      0.5389375687,
+      0.522356391,
+      0.5040369034,
+      0.498654902,
+      0.4790810347
+    ]
+  },
+  {
+    "question_id":"5a802de15542992bc0c4a6c6",
+    "question":"Karty was a writer in the weekly magazine published in what Indian city?",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":567,
+    "latency_ms":46.09265,
+    "retrieved_titles":[
+      "Avadhanam Sita Raman",
+      "Raknno",
+      "Khasokhas Weekly",
+      "Mathrubhumi Azhchappathippu",
+      "Kumudam"
+    ],
+    "similarity_scores":[
+      0.5389375687,
+      0.522356391,
+      0.5040369034,
+      0.4986549318,
+      0.4790810347
+    ]
+  },
+  {
+    "question_id":"5a802de15542992bc0c4a6c6",
+    "question":"Karty was a writer in the weekly magazine published in what Indian city?",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":567,
+    "latency_ms":46.7784530001,
+    "retrieved_titles":[
+      "Avadhanam Sita Raman",
+      "Raknno",
+      "Khasokhas Weekly",
+      "Mathrubhumi Azhchappathippu",
+      "Kumudam"
+    ],
+    "similarity_scores":[
+      0.5389375687,
+      0.522356391,
+      0.5040369034,
+      0.4986549318,
+      0.4790810347
+    ]
+  },
+  {
+    "question_id":"5ac2df60554299657fa290b2",
+    "question":"Can both War and Peace and Les v\u00eapres siciliennes be arranged as five acts?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":902,
+    "latency_ms":50.2416149998,
+    "retrieved_titles":[
+      "Les v\u00eapres siciliennes",
+      "War and Peace (opera)",
+      "Trag\u00e9die en musique",
+      "The Cenci",
+      "Le chevalier d'Harmental"
+    ],
+    "similarity_scores":[
+      0.6143788099,
+      0.5910573006,
+      0.5003037453,
+      0.4993003607,
+      0.4473498762
+    ]
+  },
+  {
+    "question_id":"5ac2df60554299657fa290b2",
+    "question":"Can both War and Peace and Les v\u00eapres siciliennes be arranged as five acts?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":969,
+    "latency_ms":55.3185170002,
+    "retrieved_titles":[
+      "Les v\u00eapres siciliennes",
+      "War and Peace (opera)",
+      "Trag\u00e9die en musique",
+      "The Cenci",
+      "Le chevalier d'Harmental"
+    ],
+    "similarity_scores":[
+      0.6143788099,
+      0.5910573006,
+      0.5006327033,
+      0.4981917739,
+      0.4473498762
+    ]
+  },
+  {
+    "question_id":"5ac2df60554299657fa290b2",
+    "question":"Can both War and Peace and Les v\u00eapres siciliennes be arranged as five acts?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":969,
+    "latency_ms":52.7546560002,
+    "retrieved_titles":[
+      "Les v\u00eapres siciliennes",
+      "War and Peace (opera)",
+      "Trag\u00e9die en musique",
+      "The Cenci",
+      "Le chevalier d'Harmental"
+    ],
+    "similarity_scores":[
+      0.6143788099,
+      0.5910573006,
+      0.5006327033,
+      0.4981917739,
+      0.4473498762
+    ]
+  },
+  {
+    "question_id":"5a90c8f455429916514e7574",
+    "question":"Sinclair Vehicles Ltd was a company formed in March 1983 by Sir Clive Sinclair as a focus for his work in the field of electric vehicles, Barrie Wills, formerly of the DeLorean Motor Company, was appointed as managing director, the The DeLorean Motor Company (DMC) is an American automobile manufacturer originally formed, by which automobile industry executive in 1975?",
+    "chunk_size":256,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":586,
+    "latency_ms":72.9246210003,
+    "retrieved_titles":[
+      "Sinclair Vehicles",
+      "DeLorean Motor Company",
+      "Sinclair Research",
+      "John DeLorean",
+      "Nigel Searle"
+    ],
+    "similarity_scores":[
+      0.8101510406,
+      0.6290425062,
+      0.5762006044,
+      0.5463047624,
+      0.5270503759
+    ]
+  },
+  {
+    "question_id":"5a90c8f455429916514e7574",
+    "question":"Sinclair Vehicles Ltd was a company formed in March 1983 by Sir Clive Sinclair as a focus for his work in the field of electric vehicles, Barrie Wills, formerly of the DeLorean Motor Company, was appointed as managing director, the The DeLorean Motor Company (DMC) is an American automobile manufacturer originally formed, by which automobile industry executive in 1975?",
+    "chunk_size":512,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":586,
+    "latency_ms":72.7304860002,
+    "retrieved_titles":[
+      "Sinclair Vehicles",
+      "DeLorean Motor Company",
+      "Sinclair Research",
+      "John DeLorean",
+      "Nigel Searle"
+    ],
+    "similarity_scores":[
+      0.8101510406,
+      0.6290425062,
+      0.5762005448,
+      0.5463047624,
+      0.5270503759
+    ]
+  },
+  {
+    "question_id":"5a90c8f455429916514e7574",
+    "question":"Sinclair Vehicles Ltd was a company formed in March 1983 by Sir Clive Sinclair as a focus for his work in the field of electric vehicles, Barrie Wills, formerly of the DeLorean Motor Company, was appointed as managing director, the The DeLorean Motor Company (DMC) is an American automobile manufacturer originally formed, by which automobile industry executive in 1975?",
+    "chunk_size":1024,
+    "supporting_fact_recall":1.0,
+    "retrieved_tokens":586,
+    "latency_ms":65.6301969998,
+    "retrieved_titles":[
+      "Sinclair Vehicles",
+      "DeLorean Motor Company",
+      "Sinclair Research",
+      "John DeLorean",
+      "Nigel Searle"
+    ],
+    "similarity_scores":[
+      0.8101510406,
+      0.6290425062,
+      0.5762005448,
+      0.5463047624,
+      0.5270503759
+    ]
+  },
+  {
+    "question_id":"5adf9a045542995ec70e904a",
+    "question":"Where does the author of  Amazon Watershed write an article in? ",
+    "chunk_size":256,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":782,
+    "latency_ms":51.7823079999,
+    "retrieved_titles":[
+      "Amazon Watershed",
+      "Susanna Hecht",
+      "Susanna Hecht",
+      "The Motion of Light in Water",
+      "Todd Klick"
+    ],
+    "similarity_scores":[
+      0.6225457788,
+      0.5137782097,
+      0.476984024,
+      0.4671601653,
+      0.4561997056
+    ]
+  },
+  {
+    "question_id":"5adf9a045542995ec70e904a",
+    "question":"Where does the author of  Amazon Watershed write an article in? ",
+    "chunk_size":512,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":1087,
+    "latency_ms":49.4887330001,
+    "retrieved_titles":[
+      "Amazon Watershed",
+      "Susanna Hecht",
+      "The Motion of Light in Water",
+      "Todd Klick",
+      "Umarji Anuradha"
+    ],
+    "similarity_scores":[
+      0.6225457788,
+      0.5174036026,
+      0.458622545,
+      0.4561997056,
+      0.4477094412
+    ]
+  },
+  {
+    "question_id":"5adf9a045542995ec70e904a",
+    "question":"Where does the author of  Amazon Watershed write an article in? ",
+    "chunk_size":1024,
+    "supporting_fact_recall":0.5,
+    "retrieved_tokens":1087,
+    "latency_ms":48.8828809998,
+    "retrieved_titles":[
+      "Amazon Watershed",
+      "Susanna Hecht",
+      "The Motion of Light in Water",
+      "Todd Klick",
+      "Umarji Anuradha"
+    ],
+    "similarity_scores":[
+      0.6225457788,
+      0.5174036026,
+      0.458622545,
+      0.4561997056,
+      0.4477094412
+    ]
+  }
+]
