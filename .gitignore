@@ -11,6 +11,9 @@ indexes/*
 !indexes/.gitkeep
 results/*
 !results/.gitkeep
+!results/fixed_size_retrieval_results.json
+!results/fixed_size_retrieval_results.csv
+!results/fixed_size_retrieval_summary.csv
 *.faiss
 *.npy
 *.npz

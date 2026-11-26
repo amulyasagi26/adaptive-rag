@@ -1,4 +1,4 @@
-"""HotpotQA loading and development-corpus preparation."""
+﻿"""HotpotQA loading and development-corpus preparation."""
 
 from dataclasses import dataclass
 from typing import Any
@@ -23,7 +23,14 @@ class Document:
 
 def parse_hotpot_record(record: dict[str, Any]) -> HotpotExample:
     """Parse one record while keeping answers/labels out of document text."""
-    contexts = [{"title": title, "sentences": list(sentences)} for title, sentences in record["context"]]
+    raw_context = record["context"]
+
+    if isinstance(raw_context, dict):
+        context_pairs = zip(raw_context["title"], raw_context["sentences"])
+    else:
+        context_pairs = raw_context
+
+    contexts = [{"title": title, "sentences": list(sentences)} for title, sentences in context_pairs]
     labels = record.get("supporting_facts", {})
     if isinstance(labels, dict) and "title" in labels and "sent_id" in labels:
         supporting = [(str(title), int(index)) for title, index in zip(labels["title"], labels["sent_id"])]
@@ -42,7 +49,7 @@ def load_hotpotqa(sample_size: int = 50, seed: int = 14, split: str = "train") -
         from datasets import load_dataset
     except ImportError as exc:
         raise ImportError("Install datasets to load HotpotQA: python -m pip install datasets") from exc
-    dataset = load_dataset("hotpot_qa", "distractor", split=split)
+    dataset = load_dataset("hotpotqa/hotpot_qa", "distractor", split=split)
     sample_size = min(sample_size, len(dataset))
     dataset = dataset.shuffle(seed=seed).select(range(sample_size))
     examples = [parse_hotpot_record(row) for row in dataset]
