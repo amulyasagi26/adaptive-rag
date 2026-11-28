@@ -1,4 +1,4 @@
-.venv/
+.venv*/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -14,6 +14,18 @@ results/*
 !results/fixed_size_retrieval_results.json
 !results/fixed_size_retrieval_results.csv
 !results/fixed_size_retrieval_summary.csv
+!results/adaptive_experiment/
+!results/adaptive_experiment/*.json
+!results/adaptive_experiment/*.csv
+results/adaptive_experiment/indexes/
+!results/adaptive_generation_5/
+!results/adaptive_generation_5/*.json
+!results/adaptive_generation_5/*.csv
+results/adaptive_generation_5/indexes/
+!results/adaptive_generation_50/
+!results/adaptive_generation_50/*.json
+!results/adaptive_generation_50/*.csv
+results/adaptive_generation_50/indexes/
 *.faiss
 *.npy
 *.npz

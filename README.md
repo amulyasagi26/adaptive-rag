@@ -1,6 +1,6 @@
 # Team 14 — Cost-Aware Adaptive RAG
 
-This repository contains the reproducible retrieval baselines for Team 14's CSC 803 research project. The current implementation uses HotpotQA distractor contexts, fixed chunk sizes of 256, 512, and 1024 tokens, BGE-M3 embeddings, FAISS inner-product indexes, and top-5 retrieval.
+This repository contains the reproducible retrieval and adaptive-routing experiments for Team 14's CSC 803 research project. The implementation uses HotpotQA distractor contexts, fixed chunk sizes of 256, 512, and 1024 tokens, semantic chunking, BGE-M3 embeddings, FAISS inner-product indexes, a cost-aware adaptive router, and optional Qwen answer generation.
 
 The research investigates whether adaptive chunk-size selection can improve the trade-off between retrieval quality, token usage, and response latency compared to fixed-size retrieval approaches.
 
@@ -12,15 +12,17 @@ This is a development baseline, not an official HotpotQA benchmark implementatio
 .
 ├── notebooks/
 │   ├── 01_baseline_512.ipynb
-│   └── 02_fixed_size_indexes.ipynb
+│   ├── 02_fixed_size_indexes.ipynb
+│   └── 03_AI_Generation_&_Semantic_Chunking.ipynb
 ├── src/
 │   ├── chunking.py       # Token-based chunking and source-sentence metadata
 │   ├── data.py           # HotpotQA loading and corpus preparation
 │   ├── embeddings.py     # BGE-M3 wrapper
 │   ├── evaluation.py     # Lightweight retrieval metrics
-│   ├── generation.py     # Reserved for the later generation phase
+│   ├── generation.py     # Lazy Qwen answer-generation wrapper
 │   ├── retrieval.py      # FAISS index construction and search
-│   └── router.py         # Reserved for the later adaptive-router phase
+│   ├── router.py         # Cost-aware routing across chunk-size indexes
+│   └── semantic_chunking.py # Embedding-based semantic chunking
 ├── tests/
 ├── literature/related_work.md
 ├── indexes/              # Local generated indexes; ignored by Git
@@ -35,7 +37,7 @@ This is a development baseline, not an official HotpotQA benchmark implementatio
 Google Colab is the primary environment for model and dataset work. Local IDEs are used for editing and testing the reusable Python modules. The notebooks mount Google Drive and write generated indexes, metadata, and retrieval outputs there so they survive runtime resets.
 
 1. Push or clone this repository to GitHub.
-2. Open `notebooks/01_baseline_512.ipynb` or `notebooks/02_fixed_size_indexes.ipynb` in Colab.
+2. Open the relevant notebook in Colab: `01` for the original baseline, `02` for fixed-size experiments, or `03` for generation and semantic chunking.
 3. Set `GITHUB_REPO_URL` in the setup cell to your repository URL, or upload/open the notebook from an already-cloned checkout.
 4. Run the cells in order and approve the Google Drive mount.
 
@@ -68,7 +70,7 @@ The index is saved as `hotpotqa_512/index.faiss` with `metadata.json` under the 
 
 ### Milestone 1 output format
 
-The baseline demonstrates evidence retrieval, not answer generation. Its output should have this shape; the text and scores below are illustrative only:
+The baseline demonstrates evidence retrieval. The optional generation workflow in notebook 03 uses the retrieved evidence to produce a grounded answer.
 
 ```text
 Input question
@@ -131,6 +133,7 @@ The 512-token and 1024-token configurations produced identical chunk contents be
 - Supporting-fact recall@5: The proportion of labeled supporting facts covered by the five retrieved chunks, based on source-sentence metadata.
 - Retrieved token count: The total number of tokenizer tokens contained in the retrieved chunks.
 - Retrieval latency: The elapsed time required to embed the query and perform the FAISS similarity search.
+- Answer exact match and token-F1: Normalized answer-quality metrics available for the Qwen generation phase.
 
 ### Experimental results
 
@@ -163,6 +166,54 @@ The detailed results contain 150 retrieval evaluations, representing 50 question
 
 Generated FAISS indexes and associated metadata are stored in Google Drive and are not committed to GitHub.
 
+## Adaptive routing and generation
+
+`AdaptiveRouter` evaluates the available chunk-size indexes for a query and selects the index that maximizes retrieval confidence minus a configurable retrieved-token cost penalty. It is intentionally transparent and serves as a reproducible routing baseline rather than a trained policy.
+
+`semantic_chunking.py` provides embedding-based sentence-boundary chunking with a hard token limit. `QwenGenerator` in `generation.py` lazily loads `Qwen/Qwen2.5-1.5B-Instruct` and generates an answer from retrieved chunks. Both components avoid model loading during import, so they can be unit tested offline.
+
+The notebook implementation in `03_AI_Generation_&_Semantic_Chunking.ipynb` remains useful for Colab demonstrations, while the reusable source modules are the canonical implementation for new experiments.
+
+For a reproducible command-line run after installing `requirements.txt`, use:
+
+```bash
+.venv311/bin/python scripts/run_adaptive_experiment.py --sample-size 50 --generation
+```
+
+The script writes fixed-index, semantic-index, adaptive-routing, retrieval-summary, and optional generation artifacts under `results/adaptive_experiment/`.
+
+### Local CPU pilot results
+
+The command-line runner was executed on the deterministic 50-question sample with BGE-M3 on CPU. These results are a reproducible pilot, not an official HotpotQA benchmark:
+
+| Method | Questions | Supporting-fact recall@5 | Mean retrieved tokens | Mean retrieval latency (ms) |
+|---|---:|---:|---:|---:|
+| Fixed 256 | 50 | 0.925 | 595.20 | 82.02 |
+| Fixed 512 | 50 | 0.925 | 626.46 | 81.65 |
+| Fixed 1024 | 50 | 0.925 | 626.46 | 82.94 |
+| Adaptive | 50 | 0.925 | 595.06 | 82.00 |
+| Semantic | 50 | 0.780 | 166.76 | 82.06 |
+
+The adaptive router selected 256-token retrieval for 49 questions and 512-token retrieval for one question. Semantic chunking used substantially fewer retrieved tokens in this pilot but had lower supporting-fact recall.
+
+A 50-question Qwen generation run was also executed using the adaptive retrieval context:
+
+| Metric | Result |
+|---|---:|
+| Questions evaluated | 50 |
+| Normalized exact match | 0.280 |
+| Token-F1 | 0.426 |
+| Mean generation latency | 1,171.30 ms |
+
+These figures are still pilot results because the corpus is pooled from a small development sample and the generation model was not tuned.
+
+The complete machine-readable outputs are available here:
+
+- [Adaptive retrieval summary](results/adaptive_experiment/retrieval_summary.csv)
+- [Adaptive retrieval results](results/adaptive_experiment/retrieval_results.csv)
+- [Qwen generation results](results/adaptive_generation_50/generation_results.csv)
+- [Qwen run retrieval summary](results/adaptive_generation_50/retrieval_summary.csv)
+
 ## HotpotQA compatibility
 
 Two compatibility fixes were implemented in `src/data.py`:
@@ -180,11 +231,11 @@ Install `pytest` if it is not already available, then run:
 python -m pytest -q
 ```
 
-The tests cover the local data schema, chunk size and boundary behavior, source metadata, and a dependency-free retrieval metadata path.
+The tests cover the local data schema, fixed and semantic chunk boundaries, source metadata, adaptive routing decisions, prompt construction, and a dependency-free retrieval metadata path.
 
 An additional test verifies dictionary-based HotpotQA context parsing.
 
-Current local test results: 4 passed.
+Current local test results: 12 passed in both Python 3.11 and Python 3.14 environments.
 
 Model downloads, BGE-M3 inference, HotpotQA network loading, and FAISS persistence are not run automatically.
 
@@ -197,13 +248,11 @@ Model downloads, BGE-M3 inference, HotpotQA network loading, and FAISS persisten
 - Supporting-fact recall measures evidence coverage and does not directly measure generated answer accuracy.
 - Retrieved token count is used as a proxy for context cost rather than actual monetary cost.
 - Retrieval latency measurements are preliminary and may be influenced by the execution environment and fixed evaluation order.
-- The original notebook outputs were generated using the temporary compatibility fixes. The permanent source changes have passed local unit tests, but the full notebook has not been rerun against those changes.
-- Adaptive routing, semantic chunking, Qwen generation, and full end-to-end evaluation remain future work.
+- The original notebook outputs were generated using the temporary compatibility fixes. The reusable source modules are covered by local unit tests, but the model-heavy notebooks must still be rerun in Colab after dependency or model changes.
+- The adaptive router is a transparent score/cost heuristic, not a learned policy; its cost weight must be calibrated on held-out data. It probes all candidate indexes, so its current objective optimizes retrieved-context cost rather than router compute latency.
 
 ## Next steps
 
 - Evaluate whether a larger or revised document corpus provides more meaningful differences between chunk-size configurations.
-- Implement the adaptive chunk-size router.
-- Integrate Qwen answer generation.
-- Evaluate answer quality, token usage, and end-to-end response latency.
-- Compare adaptive routing against the fixed-size retrieval baselines.
+- Calibrate the router cost weight on held-out data and consider a cheaper first-stage router if compute latency must also be reduced.
+- Repeat the Qwen evaluation on a held-out sample before making final answer-quality claims.

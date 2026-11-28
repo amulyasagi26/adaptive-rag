@@ -1,0 +1,6 @@
+method,chunk_size,questions_evaluated,mean_supporting_fact_recall,mean_retrieved_tokens,mean_retrieval_latency_ms
+adaptive,256.0,5,1.0,718.8,80.27989999391139
+fixed,256.0,5,1.0,718.8,644.9591083917767
+fixed,512.0,5,1.0,754.0,81.11538356170058
+fixed,1024.0,5,1.0,754.0,80.85624133236706
+semantic,,5,0.8666666666666666,193.6,80.22541664540768

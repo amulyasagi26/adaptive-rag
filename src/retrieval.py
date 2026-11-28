@@ -24,7 +24,15 @@ class FaissRetriever:
         return cls(index, chunks)
 
     def search(self, query: str, embedder: object, top_k: int = 5) -> list[dict]:
-        query_vector = np.asarray([embedder.embed_query(query)], dtype="float32")
+        if top_k <= 0:
+            raise ValueError("top_k must be positive")
+        query_vector = np.asarray(embedder.embed_query(query), dtype="float32")
+        return self.search_vector(query_vector, top_k)
+
+    def search_vector(self, query_vector: np.ndarray, top_k: int = 5) -> list[dict]:
+        if top_k <= 0:
+            raise ValueError("top_k must be positive")
+        query_vector = np.asarray([query_vector], dtype="float32")
         scores, positions = self.index.search(query_vector, min(top_k, len(self.chunks)))
         return [{"score": float(score), "chunk": self.chunks[int(position)]}
                 for score, position in zip(scores[0], positions[0]) if position >= 0]

@@ -1,0 +1,577 @@
+[
+  {
+    "question_id": "5ac38f8e554299741d48a295",
+    "question": "The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "method": "fixed",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 790,
+    "retrieval_latency_ms": 2750.3938749432564,
+    "retrieved_titles": [
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores": [
+      0.7411049008369446,
+      0.6950654983520508,
+      0.6473388671875,
+      0.5560745596885681,
+      0.5473979711532593
+    ]
+  },
+  {
+    "question_id": "5ac38f8e554299741d48a295",
+    "question": "The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "method": "fixed",
+    "chunk_size": 512,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 827,
+    "retrieval_latency_ms": 111.65916686877608,
+    "retrieved_titles": [
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores": [
+      0.7411049008369446,
+      0.6950654983520508,
+      0.6473388671875,
+      0.5560745596885681,
+      0.5509135127067566
+    ]
+  },
+  {
+    "question_id": "5ac38f8e554299741d48a295",
+    "question": "The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "method": "fixed",
+    "chunk_size": 1024,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 827,
+    "retrieval_latency_ms": 110.06287485361099,
+    "retrieved_titles": [
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores": [
+      0.7411049008369446,
+      0.6950654983520508,
+      0.6473388671875,
+      0.5560745596885681,
+      0.5509135127067566
+    ]
+  },
+  {
+    "question_id": "5ac38f8e554299741d48a295",
+    "question": "The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "method": "adaptive",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 790,
+    "retrieval_latency_ms": 112.07887507043779,
+    "retrieved_titles": [
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "New York State Capitol",
+      "List of tallest buildings in Upstate New York"
+    ],
+    "similarity_scores": [
+      0.7411049008369446,
+      0.6950654983520508,
+      0.6473388671875,
+      0.5560745596885681,
+      0.5473979711532593
+    ]
+  },
+  {
+    "question_id": "5ac38f8e554299741d48a295",
+    "question": "The Alfred E. Smith Building is located across the street from the New York State Capitol and what private office building that is the thirteenth tallest structure in Albany?",
+    "method": "semantic",
+    "chunk_size": null,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 166,
+    "retrieval_latency_ms": 105.99920805543661,
+    "retrieved_titles": [
+      "Alfred E. Smith Building",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza",
+      "List of tallest buildings in Albany, New York",
+      "One Commerce Plaza"
+    ],
+    "similarity_scores": [
+      0.7301146984100342,
+      0.6384380459785461,
+      0.6374261975288391,
+      0.6084105372428894,
+      0.5822423100471497
+    ]
+  },
+  {
+    "question_id": "5abc8060554299114383a12e",
+    "question": "In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "method": "fixed",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 647,
+    "retrieval_latency_ms": 197.66237493604422,
+    "retrieved_titles": [
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Charummood"
+    ],
+    "similarity_scores": [
+      0.6118848919868469,
+      0.5081825256347656,
+      0.4601815938949585,
+      0.44267499446868896,
+      0.3770153522491455
+    ]
+  },
+  {
+    "question_id": "5abc8060554299114383a12e",
+    "question": "In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "method": "fixed",
+    "chunk_size": 512,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 647,
+    "retrieval_latency_ms": 69.08495887182653,
+    "retrieved_titles": [
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Charummood"
+    ],
+    "similarity_scores": [
+      0.6118848919868469,
+      0.5081825256347656,
+      0.4601815938949585,
+      0.4426748752593994,
+      0.3770153522491455
+    ]
+  },
+  {
+    "question_id": "5abc8060554299114383a12e",
+    "question": "In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "method": "fixed",
+    "chunk_size": 1024,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 647,
+    "retrieval_latency_ms": 71.28429086878896,
+    "retrieved_titles": [
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Charummood"
+    ],
+    "similarity_scores": [
+      0.6118848919868469,
+      0.5081825256347656,
+      0.4601815938949585,
+      0.4426748752593994,
+      0.3770153522491455
+    ]
+  },
+  {
+    "question_id": "5abc8060554299114383a12e",
+    "question": "In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "method": "adaptive",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 647,
+    "retrieval_latency_ms": 66.68024999089539,
+    "retrieved_titles": [
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Charummood"
+    ],
+    "similarity_scores": [
+      0.6118848919868469,
+      0.5081825256347656,
+      0.4601815938949585,
+      0.44267499446868896,
+      0.3770153522491455
+    ]
+  },
+  {
+    "question_id": "5abc8060554299114383a12e",
+    "question": "In which growing town with a population of about 6,000 as of 2010 is Maranacook Lake located?",
+    "method": "semantic",
+    "chunk_size": null,
+    "supporting_fact_recall": 0.6666666666666666,
+    "retrieved_tokens": 113,
+    "retrieval_latency_ms": 70.30512508936226,
+    "retrieved_titles": [
+      "Maranacook Lake",
+      "Readfield, Maine",
+      "Winthrop, Maine",
+      "Warnervale, New South Wales",
+      "Galgala"
+    ],
+    "similarity_scores": [
+      0.6142893433570862,
+      0.5955389738082886,
+      0.4812214970588684,
+      0.4617008864879608,
+      0.4576941132545471
+    ]
+  },
+  {
+    "question_id": "5ab1fba6554299340b525453",
+    "question": "Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "method": "fixed",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 930,
+    "retrieval_latency_ms": 129.36050002463162,
+    "retrieved_titles": [
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "The Twilight Saga: Eclipse",
+      "List of Twilight cast members"
+    ],
+    "similarity_scores": [
+      0.6502907872200012,
+      0.606084406375885,
+      0.5446252822875977,
+      0.5260266661643982,
+      0.5229309797286987
+    ]
+  },
+  {
+    "question_id": "5ab1fba6554299340b525453",
+    "question": "Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "method": "fixed",
+    "chunk_size": 512,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 1039,
+    "retrieval_latency_ms": 97.16762485913932,
+    "retrieved_titles": [
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "List of Twilight cast members",
+      "The Twilight Saga: Eclipse"
+    ],
+    "similarity_scores": [
+      0.6502907872200012,
+      0.606084406375885,
+      0.5446252822875977,
+      0.5289939641952515,
+      0.5260266661643982
+    ]
+  },
+  {
+    "question_id": "5ab1fba6554299340b525453",
+    "question": "Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "method": "fixed",
+    "chunk_size": 1024,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 1039,
+    "retrieval_latency_ms": 97.66329103149474,
+    "retrieved_titles": [
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "List of Twilight cast members",
+      "The Twilight Saga: Eclipse"
+    ],
+    "similarity_scores": [
+      0.6502907872200012,
+      0.606084406375885,
+      0.5446252822875977,
+      0.5289939641952515,
+      0.5260266661643982
+    ]
+  },
+  {
+    "question_id": "5ab1fba6554299340b525453",
+    "question": "Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "method": "adaptive",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 930,
+    "retrieval_latency_ms": 95.33858299255371,
+    "retrieved_titles": [
+      "Rachelle Lefevre",
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "The Twilight Saga: Eclipse",
+      "List of Twilight cast members"
+    ],
+    "similarity_scores": [
+      0.6502907872200012,
+      0.606084406375885,
+      0.5446252822875977,
+      0.5260266661643982,
+      0.5229309797286987
+    ]
+  },
+  {
+    "question_id": "5ab1fba6554299340b525453",
+    "question": "Rachelle Lefevre is a Canadian actress, she played the vampire Victoria Sutherland in the first two films of which series of five romance fantasy films from Summit Entertainment based on the four novels by American author Stephenie Meyer?",
+    "method": "semantic",
+    "chunk_size": null,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 154,
+    "retrieval_latency_ms": 100.14162515290082,
+    "retrieved_titles": [
+      "The Twilight Saga (film series)",
+      "Twilight (novel series)",
+      "Rachelle Lefevre",
+      "Twilight (Meyer novel)",
+      "Rachelle Lefevre"
+    ],
+    "similarity_scores": [
+      0.6937650442123413,
+      0.6124011874198914,
+      0.5605270266532898,
+      0.5319592952728271,
+      0.5082248449325562
+    ]
+  },
+  {
+    "question_id": "5a8aa4aa5542992d82986f41",
+    "question": "Radiohead and Oceansize are bands that play which type of music?",
+    "method": "fixed",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 708,
+    "retrieval_latency_ms": 71.30275014787912,
+    "retrieved_titles": [
+      "Radiohead",
+      "Oceansize",
+      "Films of Colour",
+      "Post-Britpop",
+      "Nigel Godrich"
+    ],
+    "similarity_scores": [
+      0.5910564064979553,
+      0.5875688195228577,
+      0.47954609990119934,
+      0.4715121388435364,
+      0.4499852657318115
+    ]
+  },
+  {
+    "question_id": "5a8aa4aa5542992d82986f41",
+    "question": "Radiohead and Oceansize are bands that play which type of music?",
+    "method": "fixed",
+    "chunk_size": 512,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 738,
+    "retrieval_latency_ms": 63.91641707159579,
+    "retrieved_titles": [
+      "Radiohead",
+      "Oceansize",
+      "Post-Britpop",
+      "Nigel Godrich",
+      "Lines Across Maps"
+    ],
+    "similarity_scores": [
+      0.5910564064979553,
+      0.5875688195228577,
+      0.4715121388435364,
+      0.4499852657318115,
+      0.4458903670310974
+    ]
+  },
+  {
+    "question_id": "5a8aa4aa5542992d82986f41",
+    "question": "Radiohead and Oceansize are bands that play which type of music?",
+    "method": "fixed",
+    "chunk_size": 1024,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 738,
+    "retrieval_latency_ms": 62.47274996712804,
+    "retrieved_titles": [
+      "Radiohead",
+      "Oceansize",
+      "Post-Britpop",
+      "Nigel Godrich",
+      "Lines Across Maps"
+    ],
+    "similarity_scores": [
+      0.5910564064979553,
+      0.5875688195228577,
+      0.4715121388435364,
+      0.4499852657318115,
+      0.4458903670310974
+    ]
+  },
+  {
+    "question_id": "5a8aa4aa5542992d82986f41",
+    "question": "Radiohead and Oceansize are bands that play which type of music?",
+    "method": "adaptive",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 708,
+    "retrieval_latency_ms": 63.91512486152351,
+    "retrieved_titles": [
+      "Radiohead",
+      "Oceansize",
+      "Films of Colour",
+      "Post-Britpop",
+      "Nigel Godrich"
+    ],
+    "similarity_scores": [
+      0.5910564064979553,
+      0.5875688195228577,
+      0.47954609990119934,
+      0.4715121388435364,
+      0.4499852657318115
+    ]
+  },
+  {
+    "question_id": "5a8aa4aa5542992d82986f41",
+    "question": "Radiohead and Oceansize are bands that play which type of music?",
+    "method": "semantic",
+    "chunk_size": null,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 331,
+    "retrieval_latency_ms": 62.3885418754071,
+    "retrieved_titles": [
+      "Oceansize",
+      "Radiohead",
+      "Chris Hopewell",
+      "Nigel Godrich",
+      "Post-Britpop"
+    ],
+    "similarity_scores": [
+      0.6550428867340088,
+      0.6165251731872559,
+      0.4809696674346924,
+      0.4724462330341339,
+      0.4715121388435364
+    ]
+  },
+  {
+    "question_id": "5ab290ec5542993be8fa9951",
+    "question": "Who has starred in more musicals, Jo Kwon or Bada?",
+    "method": "fixed",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 519,
+    "retrieval_latency_ms": 76.07604190707207,
+    "retrieved_titles": [
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Gaon Music Chart"
+    ],
+    "similarity_scores": [
+      0.5539717674255371,
+      0.5343703627586365,
+      0.45392683148384094,
+      0.44992321729660034,
+      0.38370969891548157
+    ]
+  },
+  {
+    "question_id": "5ab290ec5542993be8fa9951",
+    "question": "Who has starred in more musicals, Jo Kwon or Bada?",
+    "method": "fixed",
+    "chunk_size": 512,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 519,
+    "retrieval_latency_ms": 63.74875013716519,
+    "retrieved_titles": [
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Gaon Music Chart"
+    ],
+    "similarity_scores": [
+      0.5539717674255371,
+      0.5343703627586365,
+      0.45392683148384094,
+      0.44992321729660034,
+      0.38370969891548157
+    ]
+  },
+  {
+    "question_id": "5ab290ec5542993be8fa9951",
+    "question": "Who has starred in more musicals, Jo Kwon or Bada?",
+    "method": "fixed",
+    "chunk_size": 1024,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 519,
+    "retrieval_latency_ms": 62.79799994081259,
+    "retrieved_titles": [
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Gaon Music Chart"
+    ],
+    "similarity_scores": [
+      0.5539717674255371,
+      0.5343703627586365,
+      0.45392683148384094,
+      0.44992321729660034,
+      0.38370969891548157
+    ]
+  },
+  {
+    "question_id": "5ab290ec5542993be8fa9951",
+    "question": "Who has starred in more musicals, Jo Kwon or Bada?",
+    "method": "adaptive",
+    "chunk_size": 256,
+    "supporting_fact_recall": 1.0,
+    "retrieved_tokens": 519,
+    "retrieval_latency_ms": 63.38666705414653,
+    "retrieved_titles": [
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Gain (singer)",
+      "Gaon Music Chart"
+    ],
+    "similarity_scores": [
+      0.5539717674255371,
+      0.5343703627586365,
+      0.45392683148384094,
+      0.44992321729660034,
+      0.38370969891548157
+    ]
+  },
+  {
+    "question_id": "5ab290ec5542993be8fa9951",
+    "question": "Who has starred in more musicals, Jo Kwon or Bada?",
+    "method": "semantic",
+    "chunk_size": null,
+    "supporting_fact_recall": 0.6666666666666666,
+    "retrieved_tokens": 204,
+    "retrieval_latency_ms": 62.292583053931594,
+    "retrieved_titles": [
+      "Bada (singer)",
+      "Jo Kwon",
+      "Mnet Asian Music Award for Best Collaboration",
+      "Kwon Yul (actor)",
+      "Gain (singer)"
+    ],
+    "similarity_scores": [
+      0.5614457726478577,
+      0.5343703627586365,
+      0.4306599497795105,
+      0.4275767505168915,
+      0.42679816484451294
+    ]
+  }
+]
